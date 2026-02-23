@@ -1,136 +1,136 @@
 Game,Difficulty,Trial,Algorithm,solved,time_s,steps,path_length,peak_memory_mb,timed_out,Size,Puzzle
-Sudoku,Easy (30),0,DFS,True,0.0042,35,30,0.08,False,,Sudoku Easy (30)
-Sudoku,Easy (30),0,A* (cells),True,0.0051,42,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),0,A* (zero),True,0.0045,42,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),0,A* (srv),True,0.0047,42,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),0,A* (mrv),True,0.0133,31,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),1,DFS,True,0.0039,36,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),1,A* (cells),True,0.0053,46,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),1,A* (zero),True,0.0049,46,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),1,A* (srv),True,0.005,46,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),1,A* (mrv),True,0.0154,33,30,0.08,False,,Sudoku Easy (30)
-Sudoku,Easy (30),2,DFS,True,0.0043,40,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),2,A* (cells),True,0.0053,44,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),2,A* (zero),True,0.0049,44,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),2,A* (srv),True,0.005,44,30,0.07,False,,Sudoku Easy (30)
-Sudoku,Easy (30),2,A* (mrv),True,0.0145,31,30,0.08,False,,Sudoku Easy (30)
-Sudoku,Medium (40),0,DFS,True,0.0056,50,40,0.09,False,,Sudoku Medium (40)
-Sudoku,Medium (40),0,A* (cells),True,0.0071,58,40,0.09,False,,Sudoku Medium (40)
-Sudoku,Medium (40),0,A* (zero),True,0.0067,58,40,0.09,False,,Sudoku Medium (40)
-Sudoku,Medium (40),0,A* (srv),True,0.0069,58,40,0.09,False,,Sudoku Medium (40)
-Sudoku,Medium (40),0,A* (mrv),True,0.0266,43,40,0.11,False,,Sudoku Medium (40)
-Sudoku,Medium (40),1,DFS,True,0.0099,87,40,0.12,False,,Sudoku Medium (40)
-Sudoku,Medium (40),1,A* (cells),True,0.0396,314,40,0.32,False,,Sudoku Medium (40)
-Sudoku,Medium (40),1,A* (zero),True,0.0352,314,40,0.31,False,,Sudoku Medium (40)
-Sudoku,Medium (40),1,A* (srv),True,0.0364,314,40,0.31,False,,Sudoku Medium (40)
-Sudoku,Medium (40),1,A* (mrv),True,0.058,72,40,0.21,False,,Sudoku Medium (40)
-Sudoku,Medium (40),2,DFS,True,0.0072,63,40,0.09,False,,Sudoku Medium (40)
-Sudoku,Medium (40),2,A* (cells),True,0.0144,118,40,0.11,False,,Sudoku Medium (40)
-Sudoku,Medium (40),2,A* (zero),True,0.0128,118,40,0.11,False,,Sudoku Medium (40)
-Sudoku,Medium (40),2,A* (srv),True,0.0132,118,40,0.11,False,,Sudoku Medium (40)
-Sudoku,Medium (40),2,A* (mrv),True,0.0269,42,40,0.11,False,,Sudoku Medium (40)
-Sudoku,Hard (50),0,DFS,True,0.038,357,50,0.15,False,,Sudoku Hard (50)
-Sudoku,Hard (50),0,A* (cells),True,0.0532,411,50,0.55,False,,Sudoku Hard (50)
-Sudoku,Hard (50),0,A* (zero),True,0.0494,411,50,0.54,False,,Sudoku Hard (50)
-Sudoku,Hard (50),0,A* (srv),True,0.0461,411,50,0.54,False,,Sudoku Hard (50)
-Sudoku,Hard (50),0,A* (mrv),True,0.1307,156,50,0.44,False,,Sudoku Hard (50)
-Sudoku,Hard (50),1,DFS,True,0.5982,6250,50,0.86,False,,Sudoku Hard (50)
-Sudoku,Hard (50),1,A* (cells),True,3.7458,27240,50,35.52,False,,Sudoku Hard (50)
-Sudoku,Hard (50),1,A* (zero),True,3.5122,27240,50,35.45,False,,Sudoku Hard (50)
-Sudoku,Hard (50),1,A* (srv),True,3.5848,27240,50,35.41,False,,Sudoku Hard (50)
-Sudoku,Hard (50),1,A* (mrv),True,0.8658,796,50,2.7,False,,Sudoku Hard (50)
-Sudoku,Hard (50),2,DFS,True,0.0134,127,50,0.13,False,,Sudoku Hard (50)
-Sudoku,Hard (50),2,A* (cells),True,0.0557,460,50,0.49,False,,Sudoku Hard (50)
-Sudoku,Hard (50),2,A* (zero),True,0.0509,460,50,0.49,False,,Sudoku Hard (50)
-Sudoku,Hard (50),2,A* (srv),True,0.0525,460,50,0.49,False,,Sudoku Hard (50)
-Sudoku,Hard (50),2,A* (mrv),True,0.0823,90,50,0.27,False,,Sudoku Hard (50)
-Sudoku,Max,0,DFS,True,1.1402,10885,57,1.01,False,,Sudoku Max
-Sudoku,Max,0,A* (cells),True,1.7903,12824,57,20.35,False,,Sudoku Max
-Sudoku,Max,0,A* (zero),True,1.677,12824,57,20.4,False,,Sudoku Max
-Sudoku,Max,0,A* (srv),True,1.6855,12824,57,20.35,False,,Sudoku Max
-Sudoku,Max,0,A* (mrv),True,2.222,2005,57,6.6,False,,Sudoku Max
-Sudoku,Max,1,DFS,True,4.5403,42466,55,3.71,False,,Sudoku Max
-Sudoku,Max,1,A* (cells),True,27.8842,190442,55,254.98,False,,Sudoku Max
-Sudoku,Max,1,A* (zero),True,25.3366,190442,55,254.98,False,,Sudoku Max
-Sudoku,Max,1,A* (srv),True,25.1523,190442,55,254.98,False,,Sudoku Max
-Sudoku,Max,1,A* (mrv),True,7.6026,6790,55,23.86,False,,Sudoku Max
-Sudoku,Max,2,DFS,True,3.9692,39881,57,3.5,False,,Sudoku Max
-Sudoku,Max,2,A* (cells),True,5.6622,41664,57,45.4,False,,Sudoku Max
-Sudoku,Max,2,A* (zero),True,5.2336,41664,57,45.28,False,,Sudoku Max
-Sudoku,Max,2,A* (srv),True,5.3507,41664,57,45.31,False,,Sudoku Max
-Sudoku,Max,2,A* (mrv),True,12.5676,10364,57,34.36,False,,Sudoku Max
-Net,,0,DFS,True,0.0005,11,9,0.01,False,3x3,Net 3x3
-Net,,0,A* (cells),True,0.0008,13,9,0.01,False,3x3,Net 3x3
-Net,,0,A* (zero),True,0.0006,13,9,0.01,False,3x3,Net 3x3
-Net,,0,A* (lookahead),True,0.0007,10,9,0.01,False,3x3,Net 3x3
-Net,,0,A* (connectivity),True,0.0007,13,9,0.01,False,3x3,Net 3x3
-Net,,1,DFS,True,0.0006,15,9,0.01,False,3x3,Net 3x3
-Net,,1,A* (cells),True,0.0007,15,9,0.01,False,3x3,Net 3x3
-Net,,1,A* (zero),True,0.0006,15,9,0.01,False,3x3,Net 3x3
-Net,,1,A* (lookahead),True,0.0008,12,9,0.01,False,3x3,Net 3x3
-Net,,1,A* (connectivity),True,0.0008,14,9,0.02,False,3x3,Net 3x3
-Net,,2,DFS,True,0.0004,10,9,0.01,False,3x3,Net 3x3
-Net,,2,A* (cells),True,0.0005,12,9,0.01,False,3x3,Net 3x3
-Net,,2,A* (zero),True,0.0005,12,9,0.01,False,3x3,Net 3x3
-Net,,2,A* (lookahead),True,0.0006,10,9,0.01,False,3x3,Net 3x3
-Net,,2,A* (connectivity),True,0.0006,10,9,0.01,False,3x3,Net 3x3
-Net,,0,DFS,True,0.0007,17,16,0.02,False,4x4,Net 4x4
-Net,,0,A* (cells),True,0.0009,21,16,0.02,False,4x4,Net 4x4
-Net,,0,A* (zero),True,0.0009,21,16,0.02,False,4x4,Net 4x4
-Net,,0,A* (lookahead),True,0.0011,17,16,0.02,False,4x4,Net 4x4
-Net,,0,A* (connectivity),True,0.0011,18,16,0.02,False,4x4,Net 4x4
-Net,,1,DFS,True,0.0007,17,16,0.02,False,4x4,Net 4x4
-Net,,1,A* (cells),True,0.0009,19,16,0.02,False,4x4,Net 4x4
-Net,,1,A* (zero),True,0.0008,19,16,0.02,False,4x4,Net 4x4
-Net,,1,A* (lookahead),True,0.0011,17,16,0.02,False,4x4,Net 4x4
-Net,,1,A* (connectivity),True,0.001,17,16,0.02,False,4x4,Net 4x4
-Net,,2,DFS,True,0.0007,18,16,0.02,False,4x4,Net 4x4
-Net,,2,A* (cells),True,0.0009,20,16,0.02,False,4x4,Net 4x4
-Net,,2,A* (zero),True,0.0008,20,16,0.02,False,4x4,Net 4x4
-Net,,2,A* (lookahead),True,0.0012,18,16,0.02,False,4x4,Net 4x4
-Net,,2,A* (connectivity),True,0.0011,18,16,0.02,False,4x4,Net 4x4
-Net,,0,DFS,True,0.0011,26,25,0.05,False,5x5,Net 5x5
-Net,,0,A* (cells),True,0.0014,34,25,0.05,False,5x5,Net 5x5
-Net,,0,A* (zero),True,0.0015,34,25,0.05,False,5x5,Net 5x5
-Net,,0,A* (lookahead),True,0.0018,26,25,0.05,False,5x5,Net 5x5
-Net,,0,A* (connectivity),True,0.002,27,25,0.05,False,5x5,Net 5x5
-Net,,1,DFS,True,0.0011,28,25,0.05,False,5x5,Net 5x5
-Net,,1,A* (cells),True,0.0017,40,25,0.05,False,5x5,Net 5x5
-Net,,1,A* (zero),True,0.0017,40,25,0.05,False,5x5,Net 5x5
-Net,,1,A* (lookahead),True,0.0024,36,25,0.06,False,5x5,Net 5x5
-Net,,1,A* (connectivity),True,0.0022,29,25,0.05,False,5x5,Net 5x5
-Net,,2,DFS,True,0.0011,26,25,0.05,False,5x5,Net 5x5
-Net,,2,A* (cells),True,0.0015,34,25,0.05,False,5x5,Net 5x5
-Net,,2,A* (zero),True,0.0016,34,25,0.05,False,5x5,Net 5x5
-Net,,2,A* (lookahead),True,0.0018,26,25,0.05,False,5x5,Net 5x5
-Net,,2,A* (connectivity),True,0.0023,30,25,0.06,False,5x5,Net 5x5
-Net,,0,DFS,True,0.0016,41,36,0.08,False,6x6,Net 6x6
-Net,,0,A* (cells),True,0.0021,48,36,0.08,False,6x6,Net 6x6
-Net,,0,A* (zero),True,0.0021,48,36,0.08,False,6x6,Net 6x6
-Net,,0,A* (lookahead),True,0.0028,39,36,0.09,False,6x6,Net 6x6
-Net,,0,A* (connectivity),True,0.0035,42,36,0.09,False,6x6,Net 6x6
-Net,,1,DFS,True,0.0016,38,36,0.08,False,6x6,Net 6x6
-Net,,1,A* (cells),True,0.0021,45,36,0.08,False,6x6,Net 6x6
-Net,,1,A* (zero),True,0.0021,45,36,0.08,False,6x6,Net 6x6
-Net,,1,A* (lookahead),True,0.0026,38,36,0.09,False,6x6,Net 6x6
-Net,,1,A* (connectivity),True,0.0037,44,36,0.09,False,6x6,Net 6x6
-Net,,2,DFS,True,0.0016,38,36,0.08,False,6x6,Net 6x6
-Net,,2,A* (cells),True,0.0021,45,36,0.08,False,6x6,Net 6x6
-Net,,2,A* (zero),True,0.0021,45,36,0.08,False,6x6,Net 6x6
-Net,,2,A* (lookahead),True,0.0028,38,36,0.09,False,6x6,Net 6x6
-Net,,2,A* (connectivity),True,0.0039,44,36,0.09,False,6x6,Net 6x6
-Net,,0,DFS,True,0.0024,52,49,0.14,False,7x7,Net 7x7
-Net,,0,A* (cells),True,0.003,61,49,0.13,False,7x7,Net 7x7
-Net,,0,A* (zero),True,0.003,61,49,0.13,False,7x7,Net 7x7
-Net,,0,A* (lookahead),True,0.0042,55,49,0.16,False,7x7,Net 7x7
-Net,,0,A* (connectivity),True,0.0107,61,49,0.14,False,7x7,Net 7x7
-Net,,1,DFS,True,0.0033,78,49,0.14,False,7x7,Net 7x7
-Net,,1,A* (cells),True,0.0042,91,49,0.15,False,7x7,Net 7x7
-Net,,1,A* (zero),True,0.0048,91,49,0.14,False,7x7,Net 7x7
-Net,,1,A* (lookahead),True,0.0066,83,49,0.23,False,7x7,Net 7x7
-Net,,1,A* (connectivity),True,0.0094,91,49,0.15,False,7x7,Net 7x7
-Net,,2,DFS,True,0.0025,53,49,0.14,False,7x7,Net 7x7
-Net,,2,A* (cells),True,0.0031,62,49,0.13,False,7x7,Net 7x7
-Net,,2,A* (zero),True,0.003,62,49,0.13,False,7x7,Net 7x7
-Net,,2,A* (lookahead),True,0.0043,56,49,0.16,False,7x7,Net 7x7
-Net,,2,A* (connectivity),True,0.0069,58,49,0.14,False,7x7,Net 7x7
+Sudoku,Easy (30),0,DFS,True,0.0081,35,30,0.08,False,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (cells),True,0.0093,42,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (zero),True,0.0084,42,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (srv),True,0.0093,42,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (mrv),True,0.0239,31,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),1,DFS,True,0.007,36,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),1,A* (cells),True,0.0092,46,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),1,A* (zero),True,0.0088,46,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),1,A* (srv),True,0.0094,46,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),1,A* (mrv),True,0.028,33,30,0.08,False,,Sudoku Easy (30)
+Sudoku,Easy (30),2,DFS,True,0.0076,40,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),2,A* (cells),True,0.009,44,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),2,A* (zero),True,0.0088,44,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),2,A* (srv),True,0.0089,44,30,0.07,False,,Sudoku Easy (30)
+Sudoku,Easy (30),2,A* (mrv),True,0.0248,31,30,0.08,False,,Sudoku Easy (30)
+Sudoku,Medium (40),0,DFS,True,0.0095,50,40,0.09,False,,Sudoku Medium (40)
+Sudoku,Medium (40),0,A* (cells),True,0.0123,58,40,0.09,False,,Sudoku Medium (40)
+Sudoku,Medium (40),0,A* (zero),True,0.0121,58,40,0.09,False,,Sudoku Medium (40)
+Sudoku,Medium (40),0,A* (srv),True,0.0118,58,40,0.09,False,,Sudoku Medium (40)
+Sudoku,Medium (40),0,A* (mrv),True,0.043,43,40,0.11,False,,Sudoku Medium (40)
+Sudoku,Medium (40),1,DFS,True,0.0171,87,40,0.12,False,,Sudoku Medium (40)
+Sudoku,Medium (40),1,A* (cells),True,0.0676,314,40,0.32,False,,Sudoku Medium (40)
+Sudoku,Medium (40),1,A* (zero),True,0.0619,314,40,0.31,False,,Sudoku Medium (40)
+Sudoku,Medium (40),1,A* (srv),True,0.062,314,40,0.31,False,,Sudoku Medium (40)
+Sudoku,Medium (40),1,A* (mrv),True,0.0963,72,40,0.21,False,,Sudoku Medium (40)
+Sudoku,Medium (40),2,DFS,True,0.0125,63,40,0.09,False,,Sudoku Medium (40)
+Sudoku,Medium (40),2,A* (cells),True,0.0242,118,40,0.11,False,,Sudoku Medium (40)
+Sudoku,Medium (40),2,A* (zero),True,0.0223,118,40,0.11,False,,Sudoku Medium (40)
+Sudoku,Medium (40),2,A* (srv),True,0.023,118,40,0.11,False,,Sudoku Medium (40)
+Sudoku,Medium (40),2,A* (mrv),True,0.0461,42,40,0.11,False,,Sudoku Medium (40)
+Sudoku,Hard (50),0,DFS,True,0.0656,357,50,0.15,False,,Sudoku Hard (50)
+Sudoku,Hard (50),0,A* (cells),True,0.0891,411,50,0.55,False,,Sudoku Hard (50)
+Sudoku,Hard (50),0,A* (zero),True,0.0802,411,50,0.54,False,,Sudoku Hard (50)
+Sudoku,Hard (50),0,A* (srv),True,0.0833,411,50,0.54,False,,Sudoku Hard (50)
+Sudoku,Hard (50),0,A* (mrv),True,0.2398,156,50,0.44,False,,Sudoku Hard (50)
+Sudoku,Hard (50),1,DFS,True,1.0796,6250,50,0.86,False,,Sudoku Hard (50)
+Sudoku,Hard (50),1,A* (cells),True,6.5367,27240,50,35.52,False,,Sudoku Hard (50)
+Sudoku,Hard (50),1,A* (zero),True,5.8347,27240,50,35.45,False,,Sudoku Hard (50)
+Sudoku,Hard (50),1,A* (srv),True,5.9675,27240,50,35.41,False,,Sudoku Hard (50)
+Sudoku,Hard (50),1,A* (mrv),True,1.4373,796,50,2.7,False,,Sudoku Hard (50)
+Sudoku,Hard (50),2,DFS,True,0.0243,127,50,0.13,False,,Sudoku Hard (50)
+Sudoku,Hard (50),2,A* (cells),True,0.0977,460,50,0.49,False,,Sudoku Hard (50)
+Sudoku,Hard (50),2,A* (zero),True,0.087,460,50,0.49,False,,Sudoku Hard (50)
+Sudoku,Hard (50),2,A* (srv),True,0.1015,460,50,0.49,False,,Sudoku Hard (50)
+Sudoku,Hard (50),2,A* (mrv),True,0.1399,90,50,0.27,False,,Sudoku Hard (50)
+Sudoku,Max,0,DFS,True,1.9184,10885,57,1.01,False,,Sudoku Max
+Sudoku,Max,0,A* (cells),True,3.0131,12824,57,20.35,False,,Sudoku Max
+Sudoku,Max,0,A* (zero),True,2.8043,12824,57,20.47,False,,Sudoku Max
+Sudoku,Max,0,A* (srv),True,2.8456,12824,57,20.35,False,,Sudoku Max
+Sudoku,Max,0,A* (mrv),True,3.6807,2005,57,6.61,False,,Sudoku Max
+Sudoku,Max,1,DFS,True,7.5107,42466,55,3.71,False,,Sudoku Max
+Sudoku,Max,1,A* (cells),True,47.1056,190442,55,254.98,False,,Sudoku Max
+Sudoku,Max,1,A* (zero),True,43.6341,190442,55,254.98,False,,Sudoku Max
+Sudoku,Max,1,A* (srv),True,44.0242,190442,55,254.98,False,,Sudoku Max
+Sudoku,Max,1,A* (mrv),True,13.3074,6790,55,23.86,False,,Sudoku Max
+Sudoku,Max,2,DFS,True,6.891,39881,57,3.5,False,,Sudoku Max
+Sudoku,Max,2,A* (cells),True,9.8453,41664,57,45.41,False,,Sudoku Max
+Sudoku,Max,2,A* (zero),True,9.1481,41664,57,45.13,False,,Sudoku Max
+Sudoku,Max,2,A* (srv),True,9.2466,41664,57,45.31,False,,Sudoku Max
+Sudoku,Max,2,A* (mrv),True,21.781,10364,57,34.36,False,,Sudoku Max
+Net,,0,DFS,True,0.0016,11,9,0.01,False,3x3,Net 3x3
+Net,,0,A* (cells),True,0.001,13,9,0.01,False,3x3,Net 3x3
+Net,,0,A* (zero),True,0.001,13,9,0.01,False,3x3,Net 3x3
+Net,,0,A* (lookahead),True,0.0014,10,9,0.01,False,3x3,Net 3x3
+Net,,0,A* (connectivity),True,0.0014,13,9,0.01,False,3x3,Net 3x3
+Net,,1,DFS,True,0.0009,15,9,0.01,False,3x3,Net 3x3
+Net,,1,A* (cells),True,0.0012,15,9,0.01,False,3x3,Net 3x3
+Net,,1,A* (zero),True,0.0012,15,9,0.01,False,3x3,Net 3x3
+Net,,1,A* (lookahead),True,0.0014,12,9,0.01,False,3x3,Net 3x3
+Net,,1,A* (connectivity),True,0.0015,14,9,0.02,False,3x3,Net 3x3
+Net,,2,DFS,True,0.001,10,9,0.01,False,3x3,Net 3x3
+Net,,2,A* (cells),True,0.0014,12,9,0.01,False,3x3,Net 3x3
+Net,,2,A* (zero),True,0.0013,12,9,0.01,False,3x3,Net 3x3
+Net,,2,A* (lookahead),True,0.0016,10,9,0.01,False,3x3,Net 3x3
+Net,,2,A* (connectivity),True,0.0014,10,9,0.01,False,3x3,Net 3x3
+Net,,0,DFS,True,0.0017,17,16,0.02,False,4x4,Net 4x4
+Net,,0,A* (cells),True,0.0023,21,16,0.02,False,4x4,Net 4x4
+Net,,0,A* (zero),True,0.0023,21,16,0.02,False,4x4,Net 4x4
+Net,,0,A* (lookahead),True,0.0028,17,16,0.02,False,4x4,Net 4x4
+Net,,0,A* (connectivity),True,0.003,18,16,0.02,False,4x4,Net 4x4
+Net,,1,DFS,True,0.0017,17,16,0.02,False,4x4,Net 4x4
+Net,,1,A* (cells),True,0.0015,19,16,0.02,False,4x4,Net 4x4
+Net,,1,A* (zero),True,0.0015,19,16,0.02,False,4x4,Net 4x4
+Net,,1,A* (lookahead),True,0.0019,17,16,0.02,False,4x4,Net 4x4
+Net,,1,A* (connectivity),True,0.002,17,16,0.02,False,4x4,Net 4x4
+Net,,2,DFS,True,0.0012,18,16,0.02,False,4x4,Net 4x4
+Net,,2,A* (cells),True,0.0015,20,16,0.02,False,4x4,Net 4x4
+Net,,2,A* (zero),True,0.0016,20,16,0.02,False,4x4,Net 4x4
+Net,,2,A* (lookahead),True,0.0022,18,16,0.02,False,4x4,Net 4x4
+Net,,2,A* (connectivity),True,0.0023,18,16,0.02,False,4x4,Net 4x4
+Net,,0,DFS,True,0.0019,26,25,0.05,False,5x5,Net 5x5
+Net,,0,A* (cells),True,0.0031,34,25,0.05,False,5x5,Net 5x5
+Net,,0,A* (zero),True,0.0027,34,25,0.05,False,5x5,Net 5x5
+Net,,0,A* (lookahead),True,0.0033,26,25,0.05,False,5x5,Net 5x5
+Net,,0,A* (connectivity),True,0.0037,27,25,0.05,False,5x5,Net 5x5
+Net,,1,DFS,True,0.002,28,25,0.05,False,5x5,Net 5x5
+Net,,1,A* (cells),True,0.0033,40,25,0.05,False,5x5,Net 5x5
+Net,,1,A* (zero),True,0.0031,40,25,0.05,False,5x5,Net 5x5
+Net,,1,A* (lookahead),True,0.0046,36,25,0.06,False,5x5,Net 5x5
+Net,,1,A* (connectivity),True,0.0038,29,25,0.05,False,5x5,Net 5x5
+Net,,2,DFS,True,0.0019,26,25,0.05,False,5x5,Net 5x5
+Net,,2,A* (cells),True,0.0029,34,25,0.05,False,5x5,Net 5x5
+Net,,2,A* (zero),True,0.0032,34,25,0.05,False,5x5,Net 5x5
+Net,,2,A* (lookahead),True,0.0033,26,25,0.05,False,5x5,Net 5x5
+Net,,2,A* (connectivity),True,0.0042,30,25,0.06,False,5x5,Net 5x5
+Net,,0,DFS,True,0.0029,41,36,0.08,False,6x6,Net 6x6
+Net,,0,A* (cells),True,0.0056,48,36,0.08,False,6x6,Net 6x6
+Net,,0,A* (zero),True,0.0055,48,36,0.08,False,6x6,Net 6x6
+Net,,0,A* (lookahead),True,0.0049,39,36,0.09,False,6x6,Net 6x6
+Net,,0,A* (connectivity),True,0.0097,42,36,0.09,False,6x6,Net 6x6
+Net,,1,DFS,True,0.0028,38,36,0.08,False,6x6,Net 6x6
+Net,,1,A* (cells),True,0.0037,45,36,0.08,False,6x6,Net 6x6
+Net,,1,A* (zero),True,0.0038,45,36,0.08,False,6x6,Net 6x6
+Net,,1,A* (lookahead),True,0.005,38,36,0.09,False,6x6,Net 6x6
+Net,,1,A* (connectivity),True,0.0088,44,36,0.09,False,6x6,Net 6x6
+Net,,2,DFS,True,0.0032,38,36,0.08,False,6x6,Net 6x6
+Net,,2,A* (cells),True,0.004,45,36,0.08,False,6x6,Net 6x6
+Net,,2,A* (zero),True,0.0039,45,36,0.08,False,6x6,Net 6x6
+Net,,2,A* (lookahead),True,0.0051,38,36,0.09,False,6x6,Net 6x6
+Net,,2,A* (connectivity),True,0.0082,44,36,0.09,False,6x6,Net 6x6
+Net,,0,DFS,True,0.0046,52,49,0.14,False,7x7,Net 7x7
+Net,,0,A* (cells),True,0.0062,61,49,0.13,False,7x7,Net 7x7
+Net,,0,A* (zero),True,0.0057,61,49,0.13,False,7x7,Net 7x7
+Net,,0,A* (lookahead),True,0.0088,55,49,0.16,False,7x7,Net 7x7
+Net,,0,A* (connectivity),True,0.0115,61,49,0.14,False,7x7,Net 7x7
+Net,,1,DFS,True,0.0057,78,49,0.14,False,7x7,Net 7x7
+Net,,1,A* (cells),True,0.0084,91,49,0.15,False,7x7,Net 7x7
+Net,,1,A* (zero),True,0.0081,91,49,0.15,False,7x7,Net 7x7
+Net,,1,A* (lookahead),True,0.0117,83,49,0.23,False,7x7,Net 7x7
+Net,,1,A* (connectivity),True,0.0167,91,49,0.15,False,7x7,Net 7x7
+Net,,2,DFS,True,0.0042,53,49,0.14,False,7x7,Net 7x7
+Net,,2,A* (cells),True,0.0055,62,49,0.13,False,7x7,Net 7x7
+Net,,2,A* (zero),True,0.0064,62,49,0.13,False,7x7,Net 7x7
+Net,,2,A* (lookahead),True,0.0082,56,49,0.16,False,7x7,Net 7x7
+Net,,2,A* (connectivity),True,0.0113,58,49,0.14,False,7x7,Net 7x7
