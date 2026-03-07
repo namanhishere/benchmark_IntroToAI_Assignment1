@@ -5,6 +5,18 @@ Benchmarks **DFS** and **A\*** across two logic puzzles — **Sudoku** and **Net
 All measurements are averaged over repeated runs with warm-up to reduce noise, and results are exported as CSV files and charts.
 
 ---
+## Source Code
+
+Algorithm and domain implementations are in the separate repository [namanhishere/IntroAiAssignment1](https://github.com/namanhishere/IntroAiAssignment1). That repository contains:
+
+- `algorithms/`: DFS, BFS, A\* implementations
+- `domain/`: Sudoku and Net problem definitions with heuristics
+- `generator/`: Puzzle generation for Sudoku and Net
+- `rendering/`: Visualization and video rendering
+
+Refer to [IntroAiAssignment1's README](https://github.com/namanhishere/IntroAiAssignment1/blob/main/readme.md) for implementation details.
+
+---
 
 ## Overview
 
@@ -42,19 +54,10 @@ newbenchmark/
 │   ├── net_time.png
 │   ├── net_steps.png
 │   └── net_memory.png
-└── IntroAiAssignment1/         # Algorithm & domain source code
-    ├── algorithms/
-    │   ├── dfs.py
-    │   ├── bfs.py
-    │   └── astar.py
-    ├── domain/
-    │   ├── sudoku_problem.py
-    │   └── net_problem.py
-    ├── generator/
-    │   ├── create_sodoku.py
-    │   └── create_net.py
-    └── requirements.txt
+└── IntroAiAssignment1/         # Cloned from github.com/namanhishere/IntroAiAssignment1
 ```
+
+The benchmark notebook automatically clones [IntroAiAssignment1](https://github.com/namanhishere/IntroAiAssignment1) from GitHub if it's not present locally.
 
 ---
 
@@ -62,10 +65,19 @@ newbenchmark/
 
 - Python 3.10+
 - Jupyter (for running the notebook interactively)
+- Git (for cloning the IntroAiAssignment1 repository)
 
-Install dependencies:
+The notebook will automatically:
+1. Clone [namanhishere/IntroAiAssignment1](https://github.com/namanhishere/IntroAiAssignment1) if needed
+2. Install dependencies from that repository
+
+Manual setup:
 
 ```bash
+# Clone IntroAiAssignment1 repo if not already present
+git clone git@github.com:namanhishere/IntroAiAssignment1.git
+
+# Install dependencies
 pip install -r IntroAiAssignment1/requirements.txt
 pip install psutil py-cpuinfo matplotlib pandas tabulate
 ```
@@ -163,6 +175,3 @@ Both the seed and the full serialised grid (`grid_json`) are stored in the per-r
 
 ---
 
-## Source Code
-
-Algorithm and domain implementations live in [IntroAiAssignment1/](IntroAiAssignment1/readme.md). Refer to that README for details on the individual solvers, renderers, and puzzle generators.
