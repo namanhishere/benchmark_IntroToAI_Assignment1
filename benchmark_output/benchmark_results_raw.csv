@@ -1,0 +1,361 @@
+Game,Difficulty,Trial,Algorithm,seed,solved,solved_count,bench_runs,timed_out,time_s,steps,path_length,peak_memory_mb,Size,Puzzle
+Sudoku,Easy (30),0,DFS,1000,True,10,10,False,0.002642,35.0,30.0,0.0367,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (mrv),1000,True,10,10,False,0.011721,31.0,30.0,0.0385,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (cells),1000,True,10,10,False,0.012119,35.0,30.0,0.041,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (srv),1000,True,10,10,False,0.017004,42.0,30.0,0.0395,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (zero),1000,True,10,10,False,0.013178,42.0,30.0,0.0395,,Sudoku Easy (30)
+Sudoku,Easy (30),1,DFS,1001,True,10,10,False,0.002331,36.0,30.0,0.0377,,Sudoku Easy (30)
+Sudoku,Easy (30),1,A* (mrv),1001,True,10,10,False,0.012094,31.0,30.0,0.0397,,Sudoku Easy (30)
+Sudoku,Easy (30),1,A* (cells),1001,True,10,10,False,0.014712,36.0,30.0,0.0423,,Sudoku Easy (30)
+Sudoku,Easy (30),1,A* (srv),1001,True,10,10,False,0.017289,46.0,30.0,0.041,,Sudoku Easy (30)
+Sudoku,Easy (30),1,A* (zero),1001,True,10,10,False,0.012595,46.0,30.0,0.0408,,Sudoku Easy (30)
+Sudoku,Easy (30),2,DFS,1002,True,10,10,False,0.003163,40.0,30.0,0.0368,,Sudoku Easy (30)
+Sudoku,Easy (30),2,A* (mrv),1002,True,10,10,False,0.012944,31.0,30.0,0.0385,,Sudoku Easy (30)
+Sudoku,Easy (30),2,A* (cells),1002,True,10,10,False,0.013764,40.0,30.0,0.0415,,Sudoku Easy (30)
+Sudoku,Easy (30),2,A* (srv),1002,True,10,10,False,0.017051,44.0,30.0,0.0407,,Sudoku Easy (30)
+Sudoku,Easy (30),2,A* (zero),1002,True,10,10,False,0.013177,44.0,30.0,0.0406,,Sudoku Easy (30)
+Sudoku,Medium (40),0,DFS,1000,True,10,10,False,0.004542,50.0,40.0,0.0468,,Sudoku Medium (40)
+Sudoku,Medium (40),0,A* (mrv),1000,True,10,10,False,0.01409,41.0,40.0,0.05,,Sudoku Medium (40)
+Sudoku,Medium (40),0,A* (cells),1000,True,10,10,False,0.014431,50.0,40.0,0.0529,,Sudoku Medium (40)
+Sudoku,Medium (40),0,A* (srv),1000,True,10,10,False,0.018751,53.0,40.0,0.0521,,Sudoku Medium (40)
+Sudoku,Medium (40),0,A* (zero),1000,True,10,10,False,0.014535,58.0,40.0,0.0513,,Sudoku Medium (40)
+Sudoku,Medium (40),1,DFS,1001,True,10,10,False,0.007112,87.0,40.0,0.0598,,Sudoku Medium (40)
+Sudoku,Medium (40),1,A* (mrv),1001,True,10,10,False,0.0218,45.0,40.0,0.0525,,Sudoku Medium (40)
+Sudoku,Medium (40),1,A* (cells),1001,True,10,10,False,0.032581,87.0,40.0,0.071,,Sudoku Medium (40)
+Sudoku,Medium (40),1,A* (srv),1001,True,10,10,False,0.125214,227.0,40.0,0.0816,,Sudoku Medium (40)
+Sudoku,Medium (40),1,A* (zero),1001,True,10,10,False,0.099258,314.0,40.0,0.1638,,Sudoku Medium (40)
+Sudoku,Medium (40),2,DFS,1002,True,10,10,False,0.004398,63.0,40.0,0.0511,,Sudoku Medium (40)
+Sudoku,Medium (40),2,A* (mrv),1002,True,10,10,False,0.020029,41.0,40.0,0.0499,,Sudoku Medium (40)
+Sudoku,Medium (40),2,A* (cells),1002,True,10,10,False,0.022683,63.0,40.0,0.0584,,Sudoku Medium (40)
+Sudoku,Medium (40),2,A* (srv),1002,True,10,10,False,0.052129,117.0,40.0,0.0661,,Sudoku Medium (40)
+Sudoku,Medium (40),2,A* (zero),1002,True,10,10,False,0.034336,118.0,40.0,0.0687,,Sudoku Medium (40)
+Sudoku,Hard (50),0,DFS,1000,True,10,10,False,0.023603,357.0,50.0,0.0991,,Sudoku Hard (50)
+Sudoku,Hard (50),0,A* (mrv),1000,True,10,10,False,0.065571,140.0,50.0,0.0798,,Sudoku Hard (50)
+Sudoku,Hard (50),0,A* (cells),1000,True,10,10,False,0.105604,357.0,50.0,0.1385,,Sudoku Hard (50)
+Sudoku,Hard (50),0,A* (srv),1000,True,10,10,False,0.140083,382.0,50.0,0.1374,,Sudoku Hard (50)
+Sudoku,Hard (50),0,A* (zero),1000,True,10,10,False,0.136341,411.0,50.0,0.289,,Sudoku Hard (50)
+Sudoku,Hard (50),1,DFS,1001,True,10,10,False,0.420263,6250.0,50.0,0.8295,,Sudoku Hard (50)
+Sudoku,Hard (50),1,A* (mrv),1001,True,10,10,False,0.219036,391.0,50.0,0.1427,,Sudoku Hard (50)
+Sudoku,Hard (50),1,A* (cells),1001,True,10,10,False,2.028352,6250.0,50.0,1.4622,,Sudoku Hard (50)
+Sudoku,Hard (50),1,A* (srv),1001,True,10,10,False,6.411882,23957.0,50.0,5.8147,,Sudoku Hard (50)
+Sudoku,Hard (50),1,A* (zero),1001,True,10,10,False,4.960012,27240.0,50.0,19.5358,,Sudoku Hard (50)
+Sudoku,Hard (50),2,DFS,1002,True,10,10,False,0.008951,127.0,50.0,0.0737,,Sudoku Hard (50)
+Sudoku,Hard (50),2,A* (mrv),1002,True,10,10,False,0.026426,52.0,50.0,0.0647,,Sudoku Hard (50)
+Sudoku,Hard (50),2,A* (cells),1002,True,10,10,False,0.038697,127.0,50.0,0.0874,,Sudoku Hard (50)
+Sudoku,Hard (50),2,A* (srv),1002,True,10,10,False,0.193549,434.0,50.0,0.1433,,Sudoku Hard (50)
+Sudoku,Hard (50),2,A* (zero),1002,True,10,10,False,0.131788,460.0,50.0,0.2844,,Sudoku Hard (50)
+Sudoku,Max,0,DFS,1000,True,10,10,False,0.822248,10885.0,57.0,0.9407,,Sudoku Max
+Sudoku,Max,0,A* (mrv),1000,True,10,10,False,0.858078,1699.0,57.0,0.419,,Sudoku Max
+Sudoku,Max,0,A* (cells),1000,True,10,10,False,2.503788,10885.0,57.0,1.8426,,Sudoku Max
+Sudoku,Max,0,A* (srv),1000,True,10,10,False,3.654577,11482.0,57.0,2.366,,Sudoku Max
+Sudoku,Max,0,A* (zero),1000,True,10,10,False,3.631813,12824.0,57.0,10.7961,,Sudoku Max
+Sudoku,Max,1,DFS,1001,True,10,10,False,2.709602,42466.0,55.0,3.5078,,Sudoku Max
+Sudoku,Max,1,A* (mrv),1001,True,10,10,False,1.306233,2146.0,55.0,0.4541,,Sudoku Max
+Sudoku,Max,1,A* (cells),1001,True,10,10,False,7.341721,42466.0,55.0,7.1702,,Sudoku Max
+Sudoku,Max,1,A* (srv),1001,True,10,10,False,18.570267,97573.0,55.0,19.4561,,Sudoku Max
+Sudoku,Max,1,A* (zero),1001,True,10,10,False,26.507464,190442.0,55.0,133.0426,,Sudoku Max
+Sudoku,Max,2,DFS,1002,True,10,10,False,2.646733,39881.0,57.0,3.4234,,Sudoku Max
+Sudoku,Max,2,A* (mrv),1002,True,10,10,False,3.16874,8946.0,57.0,1.6613,,Sudoku Max
+Sudoku,Max,2,A* (cells),1002,True,10,10,False,7.073138,39881.0,57.0,6.9396,,Sudoku Max
+Sudoku,Max,2,A* (srv),1002,True,10,10,False,7.882943,35706.0,57.0,6.549,,Sudoku Max
+Sudoku,Max,2,A* (zero),1002,True,10,10,False,7.412875,41664.0,57.0,24.6632,,Sudoku Max
+Net,,0,DFS,2500,True,10,10,False,0.004467,26.0,25.0,0.0606,5x5,Net 5x5
+Net,,0,A* (lookahead),2500,True,10,10,False,0.006727,26.0,25.0,0.0595,5x5,Net 5x5
+Net,,0,A* (cells),2500,True,10,10,False,0.004861,26.0,25.0,0.0633,5x5,Net 5x5
+Net,,0,A* (connectivity),2500,True,10,10,False,0.007792,26.0,25.0,0.0633,5x5,Net 5x5
+Net,,0,A* (zero),2500,True,10,10,False,0.00478,34.0,25.0,0.0606,5x5,Net 5x5
+Net,,1,DFS,2501,True,10,10,False,0.003943,28.0,25.0,0.0586,5x5,Net 5x5
+Net,,1,A* (lookahead),2501,True,10,10,False,0.007061,27.0,25.0,0.0612,5x5,Net 5x5
+Net,,1,A* (cells),2501,True,10,10,False,0.004206,28.0,25.0,0.0613,5x5,Net 5x5
+Net,,1,A* (connectivity),2501,True,10,10,False,0.00713,28.0,25.0,0.0613,5x5,Net 5x5
+Net,,1,A* (zero),2501,True,10,10,False,0.006408,40.0,25.0,0.0621,5x5,Net 5x5
+Net,,2,DFS,2502,True,10,10,False,0.004296,26.0,25.0,0.063,5x5,Net 5x5
+Net,,2,A* (lookahead),2502,True,10,10,False,0.005807,26.0,25.0,0.0597,5x5,Net 5x5
+Net,,2,A* (cells),2502,True,10,10,False,0.005312,26.0,25.0,0.0658,5x5,Net 5x5
+Net,,2,A* (connectivity),2502,True,10,10,False,0.00681,26.0,25.0,0.0658,5x5,Net 5x5
+Net,,2,A* (zero),2502,True,10,10,False,0.006176,34.0,25.0,0.0611,5x5,Net 5x5
+Net,,3,DFS,2503,True,10,10,False,0.00324,29.0,25.0,0.0572,5x5,Net 5x5
+Net,,3,A* (lookahead),2503,True,10,10,False,0.007306,27.0,25.0,0.0596,5x5,Net 5x5
+Net,,3,A* (cells),2503,True,10,10,False,0.004876,29.0,25.0,0.0598,5x5,Net 5x5
+Net,,3,A* (connectivity),2503,True,10,10,False,0.006914,29.0,25.0,0.0598,5x5,Net 5x5
+Net,,3,A* (zero),2503,True,10,10,False,0.005965,29.0,25.0,0.0598,5x5,Net 5x5
+Net,,4,DFS,2504,True,10,10,False,0.00413,26.0,25.0,0.0624,5x5,Net 5x5
+Net,,4,A* (lookahead),2504,True,10,10,False,0.006395,26.0,25.0,0.0595,5x5,Net 5x5
+Net,,4,A* (cells),2504,True,10,10,False,0.005332,26.0,25.0,0.0652,5x5,Net 5x5
+Net,,4,A* (connectivity),2504,True,10,10,False,0.007333,26.0,25.0,0.0652,5x5,Net 5x5
+Net,,4,A* (zero),2504,True,10,10,False,0.004896,30.0,25.0,0.0599,5x5,Net 5x5
+Net,,5,DFS,2505,True,10,10,False,0.003647,27.0,25.0,0.0594,5x5,Net 5x5
+Net,,5,A* (lookahead),2505,True,10,10,False,0.006268,26.0,25.0,0.0595,5x5,Net 5x5
+Net,,5,A* (cells),2505,True,10,10,False,0.004724,27.0,25.0,0.062,5x5,Net 5x5
+Net,,5,A* (connectivity),2505,True,10,10,False,0.006397,27.0,25.0,0.062,5x5,Net 5x5
+Net,,5,A* (zero),2505,True,10,10,False,0.005144,29.0,25.0,0.0598,5x5,Net 5x5
+Net,,6,DFS,2506,True,10,10,False,0.003642,27.0,25.0,0.0588,5x5,Net 5x5
+Net,,6,A* (lookahead),2506,True,10,10,False,0.005984,26.0,25.0,0.0596,5x5,Net 5x5
+Net,,6,A* (cells),2506,True,10,10,False,0.003982,27.0,25.0,0.0613,5x5,Net 5x5
+Net,,6,A* (connectivity),2506,True,10,10,False,0.006132,27.0,25.0,0.0613,5x5,Net 5x5
+Net,,6,A* (zero),2506,True,10,10,False,0.005074,33.0,25.0,0.0605,5x5,Net 5x5
+Net,,7,DFS,2507,True,10,10,False,0.003618,27.0,25.0,0.0584,5x5,Net 5x5
+Net,,7,A* (lookahead),2507,True,10,10,False,0.006289,26.0,25.0,0.0609,5x5,Net 5x5
+Net,,7,A* (cells),2507,True,10,10,False,0.004141,27.0,25.0,0.061,5x5,Net 5x5
+Net,,7,A* (connectivity),2507,True,10,10,False,0.006315,27.0,25.0,0.061,5x5,Net 5x5
+Net,,7,A* (zero),2507,True,10,10,False,0.004634,29.0,25.0,0.0598,5x5,Net 5x5
+Net,,8,DFS,2508,True,10,10,False,0.00431,27.0,25.0,0.0603,5x5,Net 5x5
+Net,,8,A* (lookahead),2508,True,10,10,False,0.006392,26.0,25.0,0.0615,5x5,Net 5x5
+Net,,8,A* (cells),2508,True,10,10,False,0.005127,27.0,25.0,0.063,5x5,Net 5x5
+Net,,8,A* (connectivity),2508,True,10,10,False,0.008979,27.0,25.0,0.063,5x5,Net 5x5
+Net,,8,A* (zero),2508,True,10,10,False,0.006524,33.0,25.0,0.0604,5x5,Net 5x5
+Net,,9,DFS,2509,True,10,10,False,0.00433,35.0,25.0,0.0596,5x5,Net 5x5
+Net,,9,A* (lookahead),2509,True,10,10,False,0.005961,26.0,25.0,0.061,5x5,Net 5x5
+Net,,9,A* (cells),2509,True,10,10,False,0.005986,35.0,25.0,0.0626,5x5,Net 5x5
+Net,,9,A* (connectivity),2509,True,10,10,False,0.00819,35.0,25.0,0.0626,5x5,Net 5x5
+Net,,9,A* (zero),2509,True,10,10,False,0.005621,36.0,25.0,0.061,5x5,Net 5x5
+Net,,0,DFS,3000,True,10,10,False,0.016926,103.0,100.0,0.488,10x10,Net 10x10
+Net,,0,A* (lookahead),3000,True,10,10,False,0.02416,101.0,100.0,0.4906,10x10,Net 10x10
+Net,,0,A* (cells),3000,True,10,10,False,0.021165,103.0,100.0,0.497,10x10,Net 10x10
+Net,,0,A* (connectivity),3000,True,10,10,False,0.056842,103.0,100.0,0.497,10x10,Net 10x10
+Net,,0,A* (zero),3000,True,10,10,False,0.023303,113.0,100.0,0.4832,10x10,Net 10x10
+Net,,1,DFS,3001,True,10,10,False,0.019457,106.0,100.0,0.4798,10x10,Net 10x10
+Net,,1,A* (lookahead),3001,True,10,10,False,0.028834,102.0,100.0,0.4822,10x10,Net 10x10
+Net,,1,A* (cells),3001,True,10,10,False,0.020987,106.0,100.0,0.4886,10x10,Net 10x10
+Net,,1,A* (connectivity),3001,True,10,10,False,0.070126,106.0,100.0,0.4886,10x10,Net 10x10
+Net,,1,A* (zero),3001,True,10,10,False,0.020982,114.0,100.0,0.4832,10x10,Net 10x10
+Net,,2,DFS,3002,True,10,10,False,0.0194,120.0,100.0,0.5062,10x10,Net 10x10
+Net,,2,A* (lookahead),3002,True,10,10,False,0.035245,117.0,100.0,0.4975,10x10,Net 10x10
+Net,,2,A* (cells),3002,True,10,10,False,0.026525,120.0,100.0,0.5165,10x10,Net 10x10
+Net,,2,A* (connectivity),3002,True,10,10,False,0.064666,120.0,100.0,0.5165,10x10,Net 10x10
+Net,,2,A* (zero),3002,True,10,10,False,0.027046,132.0,100.0,0.4847,10x10,Net 10x10
+Net,,3,DFS,3003,True,10,10,False,0.016911,106.0,100.0,0.4907,10x10,Net 10x10
+Net,,3,A* (lookahead),3003,True,10,10,False,0.026033,102.0,100.0,0.4915,10x10,Net 10x10
+Net,,3,A* (cells),3003,True,10,10,False,0.022719,106.0,100.0,0.4999,10x10,Net 10x10
+Net,,3,A* (connectivity),3003,True,10,10,False,0.058409,106.0,100.0,0.4999,10x10,Net 10x10
+Net,,3,A* (zero),3003,True,10,10,False,0.022357,115.0,100.0,0.4832,10x10,Net 10x10
+Net,,4,DFS,3004,True,10,10,False,0.025904,137.0,99.0,0.4891,10x10,Net 10x10
+Net,,4,A* (lookahead),3004,True,10,10,False,0.034738,111.0,99.0,0.5077,10x10,Net 10x10
+Net,,4,A* (cells),3004,True,10,10,False,0.026652,137.0,99.0,0.4999,10x10,Net 10x10
+Net,,4,A* (connectivity),3004,True,10,10,False,0.094271,137.0,99.0,0.4999,10x10,Net 10x10
+Net,,4,A* (zero),3004,True,10,10,False,0.029957,144.0,99.0,0.4965,10x10,Net 10x10
+Net,,5,DFS,3005,True,10,10,False,0.019177,115.0,100.0,0.4826,10x10,Net 10x10
+Net,,5,A* (lookahead),3005,True,10,10,False,0.029067,111.0,100.0,0.4854,10x10,Net 10x10
+Net,,5,A* (cells),3005,True,10,10,False,0.023034,115.0,100.0,0.4919,10x10,Net 10x10
+Net,,5,A* (connectivity),3005,True,10,10,False,0.059136,115.0,100.0,0.4919,10x10,Net 10x10
+Net,,5,A* (zero),3005,True,10,10,False,0.022317,118.0,100.0,0.4836,10x10,Net 10x10
+Net,,6,DFS,3006,True,10,10,False,0.017579,104.0,100.0,0.4762,10x10,Net 10x10
+Net,,6,A* (lookahead),3006,True,10,10,False,0.026553,101.0,100.0,0.4846,10x10,Net 10x10
+Net,,6,A* (cells),3006,True,10,10,False,0.019578,104.0,100.0,0.4848,10x10,Net 10x10
+Net,,6,A* (connectivity),3006,True,10,10,False,0.058505,104.0,100.0,0.4848,10x10,Net 10x10
+Net,,6,A* (zero),3006,True,10,10,False,0.023764,106.0,100.0,0.4826,10x10,Net 10x10
+Net,,7,DFS,3007,True,10,10,False,0.020297,109.0,100.0,0.4843,10x10,Net 10x10
+Net,,7,A* (lookahead),3007,True,10,10,False,0.034763,127.0,100.0,0.4907,10x10,Net 10x10
+Net,,7,A* (cells),3007,True,10,10,False,0.020992,109.0,100.0,0.4933,10x10,Net 10x10
+Net,,7,A* (connectivity),3007,True,10,10,False,0.064949,109.0,100.0,0.4933,10x10,Net 10x10
+Net,,7,A* (zero),3007,True,10,10,False,0.025759,139.0,100.0,0.4855,10x10,Net 10x10
+Net,,8,DFS,3008,True,10,10,False,0.016727,103.0,100.0,0.4821,10x10,Net 10x10
+Net,,8,A* (lookahead),3008,True,10,10,False,0.02518,101.0,100.0,0.482,10x10,Net 10x10
+Net,,8,A* (cells),3008,True,10,10,False,0.019502,103.0,100.0,0.4907,10x10,Net 10x10
+Net,,8,A* (connectivity),3008,True,10,10,False,0.056197,103.0,100.0,0.4907,10x10,Net 10x10
+Net,,8,A* (zero),3008,True,10,10,False,0.020539,105.0,100.0,0.4823,10x10,Net 10x10
+Net,,9,DFS,3009,True,10,10,False,0.015949,102.0,100.0,0.4943,10x10,Net 10x10
+Net,,9,A* (lookahead),3009,True,10,10,False,0.028901,101.0,100.0,0.4926,10x10,Net 10x10
+Net,,9,A* (cells),3009,True,10,10,False,0.020524,102.0,100.0,0.5032,10x10,Net 10x10
+Net,,9,A* (connectivity),3009,True,10,10,False,0.057761,102.0,100.0,0.5032,10x10,Net 10x10
+Net,,9,A* (zero),3009,True,10,10,False,0.021887,123.0,100.0,0.484,10x10,Net 10x10
+Net,,0,DFS,3500,True,10,10,False,0.056645,238.0,224.0,2.0138,15x15,Net 15x15
+Net,,0,A* (lookahead),3500,True,10,10,False,0.08883,233.0,224.0,1.9876,15x15,Net 15x15
+Net,,0,A* (cells),3500,True,10,10,False,0.065293,238.0,224.0,2.033,15x15,Net 15x15
+Net,,0,A* (connectivity),3500,True,10,10,False,0.247139,238.0,224.0,2.033,15x15,Net 15x15
+Net,,0,A* (zero),3500,True,10,10,False,0.067869,273.0,224.0,1.9629,15x15,Net 15x15
+Net,,1,DFS,3501,True,10,10,False,0.065245,297.0,225.0,2.1051,15x15,Net 15x15
+Net,,1,A* (lookahead),3501,True,10,10,False,0.076346,229.0,225.0,2.1018,15x15,Net 15x15
+Net,,1,A* (cells),3501,True,10,10,False,0.083945,297.0,225.0,2.1289,15x15,Net 15x15
+Net,,1,A* (connectivity),3501,True,10,10,False,0.337964,297.0,225.0,2.1289,15x15,Net 15x15
+Net,,1,A* (zero),3501,True,10,10,False,0.095563,371.0,225.0,2.0224,15x15,Net 15x15
+Net,,2,DFS,3502,True,10,10,False,0.052787,242.0,225.0,1.9934,15x15,Net 15x15
+Net,,2,A* (lookahead),3502,True,10,10,False,0.077444,229.0,225.0,1.9806,15x15,Net 15x15
+Net,,2,A* (cells),3502,True,10,10,False,0.065019,242.0,225.0,2.012,15x15,Net 15x15
+Net,,2,A* (connectivity),3502,True,10,10,False,0.258946,242.0,225.0,2.012,15x15,Net 15x15
+Net,,2,A* (zero),3502,True,10,10,False,0.065566,269.0,225.0,1.9652,15x15,Net 15x15
+Net,,3,DFS,3503,True,10,10,False,0.07492,393.0,225.0,2.1082,15x15,Net 15x15
+Net,,3,A* (lookahead),3503,True,10,10,False,0.109059,314.0,225.0,2.0884,15x15,Net 15x15
+Net,,3,A* (cells),3503,True,10,10,False,0.096665,393.0,225.0,2.1454,15x15,Net 15x15
+Net,,3,A* (connectivity),3503,True,10,10,False,0.379086,393.0,225.0,2.1454,15x15,Net 15x15
+Net,,3,A* (zero),3503,True,10,10,False,0.123732,536.0,225.0,2.0625,15x15,Net 15x15
+Net,,4,DFS,3504,True,10,10,False,0.060243,238.0,225.0,1.9948,15x15,Net 15x15
+Net,,4,A* (lookahead),3504,True,10,10,False,0.077505,237.0,225.0,1.9728,15x15,Net 15x15
+Net,,4,A* (cells),3504,True,10,10,False,0.059596,238.0,225.0,2.0135,15x15,Net 15x15
+Net,,4,A* (connectivity),3504,True,10,10,False,0.263577,238.0,225.0,2.0135,15x15,Net 15x15
+Net,,4,A* (zero),3504,True,10,10,False,0.071866,263.0,225.0,1.9637,15x15,Net 15x15
+Net,,5,DFS,3505,True,10,10,False,0.072923,270.0,225.0,2.0067,15x15,Net 15x15
+Net,,5,A* (lookahead),3505,True,10,10,False,0.082347,238.0,225.0,1.9943,15x15,Net 15x15
+Net,,5,A* (cells),3505,True,10,10,False,0.071527,270.0,225.0,2.0273,15x15,Net 15x15
+Net,,5,A* (connectivity),3505,True,10,10,False,0.31076,270.0,225.0,2.0273,15x15,Net 15x15
+Net,,5,A* (zero),3505,True,10,10,False,0.095109,310.0,225.0,2.0962,15x15,Net 15x15
+Net,,6,DFS,3506,True,10,10,False,0.066674,299.0,225.0,1.9988,15x15,Net 15x15
+Net,,6,A* (lookahead),3506,True,10,10,False,0.086401,260.0,225.0,2.0028,15x15,Net 15x15
+Net,,6,A* (cells),3506,True,10,10,False,0.080087,299.0,225.0,2.0209,15x15,Net 15x15
+Net,,6,A* (connectivity),3506,True,10,10,False,0.329957,299.0,225.0,2.0209,15x15,Net 15x15
+Net,,6,A* (zero),3506,True,10,10,False,0.084653,313.0,225.0,1.9994,15x15,Net 15x15
+Net,,7,DFS,3507,True,10,10,False,0.08393,302.0,224.0,2.035,15x15,Net 15x15
+Net,,7,A* (lookahead),3507,True,10,10,False,0.083518,254.0,224.0,2.0117,15x15,Net 15x15
+Net,,7,A* (cells),3507,True,10,10,False,0.082852,302.0,224.0,2.0578,15x15,Net 15x15
+Net,,7,A* (connectivity),3507,True,10,10,False,0.349978,302.0,224.0,2.0578,15x15,Net 15x15
+Net,,7,A* (zero),3507,True,10,10,False,0.13905,475.0,224.0,3.3093,15x15,Net 15x15
+Net,,8,DFS,3508,True,10,10,False,0.069183,287.0,225.0,2.044,15x15,Net 15x15
+Net,,8,A* (lookahead),3508,True,10,10,False,0.078372,229.0,225.0,2.0447,15x15,Net 15x15
+Net,,8,A* (cells),3508,True,10,10,False,0.075049,287.0,225.0,2.066,15x15,Net 15x15
+Net,,8,A* (connectivity),3508,True,10,10,False,0.333531,287.0,225.0,2.066,15x15,Net 15x15
+Net,,8,A* (zero),3508,True,10,10,False,0.094347,338.0,225.0,2.0055,15x15,Net 15x15
+Net,,9,DFS,3509,True,10,10,False,0.07138,312.0,225.0,2.0315,15x15,Net 15x15
+Net,,9,A* (lookahead),3509,True,10,10,False,0.0825,243.0,225.0,2.018,15x15,Net 15x15
+Net,,9,A* (cells),3509,True,10,10,False,0.078328,312.0,225.0,2.0543,15x15,Net 15x15
+Net,,9,A* (connectivity),3509,True,10,10,False,0.367146,312.0,225.0,2.0543,15x15,Net 15x15
+Net,,9,A* (zero),3509,True,10,10,False,0.086708,348.0,225.0,2.0167,15x15,Net 15x15
+Net,,0,DFS,4000,True,10,10,False,0.187779,591.0,400.0,6.39,20x20,Net 20x20
+Net,,0,A* (lookahead),4000,True,10,10,False,0.198602,449.0,400.0,6.3492,20x20,Net 20x20
+Net,,0,A* (cells),4000,True,10,10,False,0.221181,591.0,400.0,6.4354,20x20,Net 20x20
+Net,,0,A* (connectivity),4000,True,10,10,False,1.195077,591.0,400.0,6.4354,20x20,Net 20x20
+Net,,0,A* (zero),4000,True,10,10,False,0.270428,757.0,400.0,6.194,20x20,Net 20x20
+Net,,1,DFS,4001,True,10,10,False,0.153948,489.0,398.0,6.3349,20x20,Net 20x20
+Net,,1,A* (lookahead),4001,True,10,10,False,0.207218,455.0,398.0,6.3027,20x20,Net 20x20
+Net,,1,A* (cells),4001,True,10,10,False,0.168917,489.0,398.0,6.3743,20x20,Net 20x20
+Net,,1,A* (connectivity),4001,True,10,10,False,0.968876,489.0,398.0,6.3743,20x20,Net 20x20
+Net,,1,A* (zero),4001,True,10,10,False,0.201423,533.0,398.0,6.1458,20x20,Net 20x20
+Net,,2,DFS,4002,True,10,10,False,0.16734,519.0,398.0,6.2307,20x20,Net 20x20
+Net,,2,A* (lookahead),4002,True,10,10,False,0.211684,470.0,398.0,6.247,20x20,Net 20x20
+Net,,2,A* (cells),4002,True,10,10,False,0.182086,519.0,398.0,6.2704,20x20,Net 20x20
+Net,,2,A* (connectivity),4002,True,10,10,False,1.071354,519.0,398.0,6.2704,20x20,Net 20x20
+Net,,2,A* (zero),4002,True,10,10,False,0.191281,541.0,398.0,6.1464,20x20,Net 20x20
+Net,,3,DFS,4003,True,10,10,False,0.329119,1041.0,400.0,6.3692,20x20,Net 20x20
+Net,,3,A* (lookahead),4003,True,10,10,False,0.344775,754.0,400.0,6.3728,20x20,Net 20x20
+Net,,3,A* (cells),4003,True,10,10,False,0.40341,1041.0,400.0,6.4577,20x20,Net 20x20
+Net,,3,A* (connectivity),4003,True,10,10,False,2.296268,1041.0,400.0,6.4577,20x20,Net 20x20
+Net,,3,A* (zero),4003,True,10,10,False,0.544767,1378.0,400.0,7.5081,20x20,Net 20x20
+Net,,4,DFS,4004,True,10,10,False,0.209904,603.0,398.0,6.3514,20x20,Net 20x20
+Net,,4,A* (lookahead),4004,True,10,10,False,0.22476,482.0,398.0,6.2989,20x20,Net 20x20
+Net,,4,A* (cells),4004,True,10,10,False,0.239729,603.0,398.0,6.3971,20x20,Net 20x20
+Net,,4,A* (connectivity),4004,True,10,10,False,1.542726,603.0,398.0,6.3971,20x20,Net 20x20
+Net,,4,A* (zero),4004,True,10,10,False,0.281649,665.0,398.0,6.5081,20x20,Net 20x20
+Net,,5,DFS,4005,True,10,10,False,0.174575,480.0,400.0,6.2736,20x20,Net 20x20
+Net,,5,A* (lookahead),4005,True,10,10,False,0.227715,488.0,400.0,6.264,20x20,Net 20x20
+Net,,5,A* (cells),4005,True,10,10,False,0.195947,480.0,400.0,6.3115,20x20,Net 20x20
+Net,,5,A* (connectivity),4005,True,10,10,False,1.069718,480.0,400.0,6.3115,20x20,Net 20x20
+Net,,5,A* (zero),4005,True,10,10,False,0.252505,623.0,400.0,6.1642,20x20,Net 20x20
+Net,,6,DFS,4006,True,10,10,False,0.202836,551.0,398.0,6.2645,20x20,Net 20x20
+Net,,6,A* (lookahead),4006,True,10,10,False,0.233482,510.0,398.0,6.2673,20x20,Net 20x20
+Net,,6,A* (cells),4006,True,10,10,False,0.202889,551.0,398.0,6.3064,20x20,Net 20x20
+Net,,6,A* (connectivity),4006,True,10,10,False,1.303912,551.0,398.0,6.3064,20x20,Net 20x20
+Net,,6,A* (zero),4006,True,10,10,False,0.309204,783.0,398.0,9.5765,20x20,Net 20x20
+Net,,7,DFS,4007,True,10,10,False,0.225305,685.0,400.0,6.3149,20x20,Net 20x20
+Net,,7,A* (lookahead),4007,True,10,10,False,0.341453,572.0,400.0,6.2989,20x20,Net 20x20
+Net,,7,A* (cells),4007,True,10,10,False,0.249116,685.0,400.0,6.3825,20x20,Net 20x20
+Net,,7,A* (connectivity),4007,True,10,10,False,1.322585,685.0,400.0,6.3825,20x20,Net 20x20
+Net,,7,A* (zero),4007,True,10,10,False,0.265876,750.0,400.0,6.3382,20x20,Net 20x20
+Net,,8,DFS,4008,True,10,10,False,0.216723,646.0,400.0,6.388,20x20,Net 20x20
+Net,,8,A* (lookahead),4008,True,10,10,False,0.250224,565.0,400.0,6.3637,20x20,Net 20x20
+Net,,8,A* (cells),4008,True,10,10,False,0.251892,646.0,400.0,6.4366,20x20,Net 20x20
+Net,,8,A* (connectivity),4008,True,10,10,False,1.515736,646.0,400.0,6.4366,20x20,Net 20x20
+Net,,8,A* (zero),4008,True,10,10,False,0.329523,767.0,400.0,8.9663,20x20,Net 20x20
+Net,,9,DFS,4009,True,10,10,False,0.199454,581.0,400.0,6.3474,20x20,Net 20x20
+Net,,9,A* (lookahead),4009,True,10,10,False,0.216895,473.0,400.0,6.3467,20x20,Net 20x20
+Net,,9,A* (cells),4009,True,10,10,False,0.233667,581.0,400.0,6.3921,20x20,Net 20x20
+Net,,9,A* (connectivity),4009,True,10,10,False,1.2293,581.0,400.0,6.3921,20x20,Net 20x20
+Net,,9,A* (zero),4009,True,10,10,False,0.239526,678.0,400.0,6.416,20x20,Net 20x20
+Net,,0,DFS,4500,True,10,10,False,0.582206,1197.0,624.0,13.9008,25x25,Net 25x25
+Net,,0,A* (lookahead),4500,True,10,10,False,0.653892,1089.0,624.0,13.8532,25x25,Net 25x25
+Net,,0,A* (cells),4500,True,10,10,False,0.570027,1197.0,624.0,13.9933,25x25,Net 25x25
+Net,,0,A* (connectivity),4500,True,10,10,False,4.200531,1197.0,624.0,13.9933,25x25,Net 25x25
+Net,,0,A* (zero),4500,True,10,10,False,0.700246,1315.0,624.0,13.6745,25x25,Net 25x25
+Net,,1,DFS,4501,True,10,10,False,0.759545,1563.0,625.0,14.1415,25x25,Net 25x25
+Net,,1,A* (lookahead),4501,True,10,10,False,0.812893,1291.0,625.0,14.1015,25x25,Net 25x25
+Net,,1,A* (cells),4501,True,10,10,False,0.844035,1563.0,625.0,14.2916,25x25,Net 25x25
+Net,,1,A* (connectivity),4501,True,10,10,False,6.171916,1563.0,625.0,14.2916,25x25,Net 25x25
+Net,,1,A* (zero),4501,True,10,10,False,1.054034,1913.0,625.0,19.6653,25x25,Net 25x25
+Net,,2,DFS,4502,True,10,10,False,0.417524,914.0,625.0,14.0911,25x25,Net 25x25
+Net,,2,A* (lookahead),4502,True,10,10,False,0.468969,782.0,625.0,13.9566,25x25,Net 25x25
+Net,,2,A* (cells),4502,True,10,10,False,0.471936,914.0,625.0,14.1689,25x25,Net 25x25
+Net,,2,A* (connectivity),4502,True,10,10,False,2.83915,914.0,625.0,14.1689,25x25,Net 25x25
+Net,,2,A* (zero),4502,True,10,10,False,0.530164,1095.0,625.0,13.5677,25x25,Net 25x25
+Net,,3,DFS,4503,True,10,10,False,0.440577,903.0,625.0,14.2122,25x25,Net 25x25
+Net,,3,A* (lookahead),4503,True,10,10,False,0.491143,784.0,625.0,13.899,25x25,Net 25x25
+Net,,3,A* (cells),4503,True,10,10,False,0.449767,903.0,625.0,14.29,25x25,Net 25x25
+Net,,3,A* (connectivity),4503,True,10,10,False,2.966256,903.0,625.0,14.29,25x25,Net 25x25
+Net,,3,A* (zero),4503,True,10,10,False,0.645262,1247.0,625.0,13.6768,25x25,Net 25x25
+Net,,4,DFS,4504,True,10,10,False,0.626945,1505.0,624.0,14.2879,25x25,Net 25x25
+Net,,4,A* (lookahead),4504,True,10,10,False,0.740363,1174.0,624.0,13.927,25x25,Net 25x25
+Net,,4,A* (cells),4504,True,10,10,False,0.720093,1505.0,624.0,14.4348,25x25,Net 25x25
+Net,,4,A* (connectivity),4504,True,10,10,False,4.325781,1505.0,624.0,14.4348,25x25,Net 25x25
+Net,,4,A* (zero),4504,True,10,10,False,0.868104,1804.0,624.0,14.6478,25x25,Net 25x25
+Net,,5,DFS,4505,True,10,10,False,0.424999,957.0,625.0,13.9333,25x25,Net 25x25
+Net,,5,A* (lookahead),4505,True,10,10,False,0.474196,785.0,625.0,13.8505,25x25,Net 25x25
+Net,,5,A* (cells),4505,True,10,10,False,0.458385,957.0,625.0,14.0125,25x25,Net 25x25
+Net,,5,A* (connectivity),4505,True,10,10,False,2.917039,957.0,625.0,14.0125,25x25,Net 25x25
+Net,,5,A* (zero),4505,True,10,10,False,0.508051,1108.0,625.0,13.5689,25x25,Net 25x25
+Net,,6,DFS,4506,True,10,10,False,0.450798,931.0,623.0,13.878,25x25,Net 25x25
+Net,,6,A* (lookahead),4506,True,10,10,False,0.401901,649.0,623.0,13.9312,25x25,Net 25x25
+Net,,6,A* (cells),4506,True,10,10,False,0.504416,931.0,623.0,13.9557,25x25,Net 25x25
+Net,,6,A* (connectivity),4506,True,10,10,False,3.232298,931.0,623.0,13.9557,25x25,Net 25x25
+Net,,6,A* (zero),4506,True,10,10,False,0.550281,1168.0,623.0,13.5603,25x25,Net 25x25
+Net,,7,DFS,4507,True,10,10,False,0.501244,1158.0,624.0,14.0323,25x25,Net 25x25
+Net,,7,A* (lookahead),4507,True,10,10,False,0.62099,992.0,624.0,13.8213,25x25,Net 25x25
+Net,,7,A* (cells),4507,True,10,10,False,0.568439,1158.0,624.0,14.1239,25x25,Net 25x25
+Net,,7,A* (connectivity),4507,True,10,10,False,3.967445,1158.0,624.0,14.1239,25x25,Net 25x25
+Net,,7,A* (zero),4507,True,10,10,False,0.852519,1684.0,624.0,21.2986,25x25,Net 25x25
+Net,,8,DFS,4508,True,10,10,False,0.418275,1021.0,625.0,13.9009,25x25,Net 25x25
+Net,,8,A* (lookahead),4508,True,10,10,False,0.486976,858.0,625.0,14.0124,25x25,Net 25x25
+Net,,8,A* (cells),4508,True,10,10,False,0.49462,1021.0,625.0,13.9836,25x25,Net 25x25
+Net,,8,A* (connectivity),4508,True,10,10,False,2.95296,1021.0,625.0,13.9836,25x25,Net 25x25
+Net,,8,A* (zero),4508,True,10,10,False,0.637562,1320.0,625.0,16.8181,25x25,Net 25x25
+Net,,9,DFS,4509,True,10,10,False,0.452121,1027.0,625.0,14.0154,25x25,Net 25x25
+Net,,9,A* (lookahead),4509,True,10,10,False,0.505584,862.0,625.0,13.8715,25x25,Net 25x25
+Net,,9,A* (cells),4509,True,10,10,False,0.490802,1027.0,625.0,14.0995,25x25,Net 25x25
+Net,,9,A* (connectivity),4509,True,10,10,False,3.264455,1027.0,625.0,14.0995,25x25,Net 25x25
+Net,,9,A* (zero),4509,True,10,10,False,0.555698,1163.0,625.0,13.5775,25x25,Net 25x25
+Net,,0,DFS,5000,True,10,10,False,0.849603,1712.0,900.0,27.3983,30x30,Net 30x30
+Net,,0,A* (lookahead),5000,True,10,10,False,0.874695,1315.0,900.0,27.2326,30x30,Net 30x30
+Net,,0,A* (cells),5000,True,10,10,False,0.94184,1712.0,900.0,27.5521,30x30,Net 30x30
+Net,,0,A* (connectivity),5000,True,10,10,False,6.124925,1712.0,900.0,27.5521,30x30,Net 30x30
+Net,,0,A* (zero),5000,True,10,10,False,1.110312,2102.0,900.0,26.9574,30x30,Net 30x30
+Net,,1,DFS,5001,True,10,10,False,0.986307,1620.0,900.0,27.6268,30x30,Net 30x30
+Net,,1,A* (lookahead),5001,True,10,10,False,0.906385,1309.0,900.0,27.5057,30x30,Net 30x30
+Net,,1,A* (cells),5001,True,10,10,False,1.037682,1620.0,900.0,27.7758,30x30,Net 30x30
+Net,,1,A* (connectivity),5001,True,10,10,False,7.205496,1620.0,900.0,27.7758,30x30,Net 30x30
+Net,,1,A* (zero),5001,True,10,10,False,1.588749,2368.0,900.0,36.5431,30x30,Net 30x30
+Net,,2,DFS,5002,True,10,10,False,1.019098,1870.0,899.0,27.4656,30x30,Net 30x30
+Net,,2,A* (lookahead),5002,True,10,10,False,1.002077,1321.0,899.0,27.1874,30x30,Net 30x30
+Net,,2,A* (cells),5002,True,10,10,False,1.060388,1870.0,899.0,27.6292,30x30,Net 30x30
+Net,,2,A* (connectivity),5002,True,10,10,False,6.160529,1870.0,899.0,27.6292,30x30,Net 30x30
+Net,,2,A* (zero),5002,True,10,10,False,1.354649,2521.0,899.0,26.51,30x30,Net 30x30
+Net,,3,DFS,5003,True,10,10,False,1.348179,2147.0,898.0,27.3179,30x30,Net 30x30
+Net,,3,A* (lookahead),5003,True,10,10,False,1.042281,1431.0,898.0,27.2616,30x30,Net 30x30
+Net,,3,A* (cells),5003,True,10,10,False,1.398472,2147.0,898.0,27.4961,30x30,Net 30x30
+Net,,3,A* (connectivity),5003,True,10,10,False,6.674416,2147.0,898.0,27.4961,30x30,Net 30x30
+Net,,3,A* (zero),5003,True,10,10,False,1.725706,2747.0,898.0,35.35,30x30,Net 30x30
+Net,,4,DFS,5004,True,10,10,False,0.864439,1426.0,900.0,27.5093,30x30,Net 30x30
+Net,,4,A* (lookahead),5004,True,10,10,False,0.815778,1041.0,900.0,27.1546,30x30,Net 30x30
+Net,,4,A* (cells),5004,True,10,10,False,0.906488,1426.0,900.0,27.647,30x30,Net 30x30
+Net,,4,A* (connectivity),5004,True,10,10,False,5.292193,1426.0,900.0,27.647,30x30,Net 30x30
+Net,,4,A* (zero),5004,True,10,10,False,1.062724,1693.0,900.0,28.6728,30x30,Net 30x30
+Net,,5,DFS,5005,True,10,10,False,0.943818,1590.0,898.0,27.4389,30x30,Net 30x30
+Net,,5,A* (lookahead),5005,True,10,10,False,1.806151,2220.0,898.0,27.1348,30x30,Net 30x30
+Net,,5,A* (cells),5005,True,10,10,False,0.969849,1590.0,898.0,27.586,30x30,Net 30x30
+Net,,5,A* (connectivity),5005,True,10,10,False,5.233824,1590.0,898.0,27.586,30x30,Net 30x30
+Net,,5,A* (zero),5005,True,10,10,False,2.837693,3824.0,898.0,61.7817,30x30,Net 30x30
+Net,,6,DFS,5006,True,10,10,False,1.039048,1811.0,897.0,27.1621,30x30,Net 30x30
+Net,,6,A* (lookahead),5006,True,10,10,False,1.846727,2446.0,897.0,27.2221,30x30,Net 30x30
+Net,,6,A* (cells),5006,True,10,10,False,0.996753,1811.0,897.0,27.3211,30x30,Net 30x30
+Net,,6,A* (connectivity),5006,True,10,10,False,5.072014,1811.0,897.0,27.3211,30x30,Net 30x30
+Net,,6,A* (zero),5006,True,10,10,False,2.326557,3626.0,897.0,48.1282,30x30,Net 30x30
+Net,,7,DFS,5007,True,10,10,False,1.27303,2207.0,898.0,27.831,30x30,Net 30x30
+Net,,7,A* (lookahead),5007,True,10,10,False,1.14181,1545.0,898.0,27.1781,30x30,Net 30x30
+Net,,7,A* (cells),5007,True,10,10,False,1.369044,2207.0,898.0,28.0153,30x30,Net 30x30
+Net,,7,A* (connectivity),5007,True,10,10,False,5.879723,2207.0,898.0,28.0153,30x30,Net 30x30
+Net,,7,A* (zero),5007,True,10,10,False,3.79815,6522.0,898.0,91.2911,30x30,Net 30x30
+Net,,8,DFS,5008,True,10,10,False,0.877695,1574.0,900.0,27.7311,30x30,Net 30x30
+Net,,8,A* (lookahead),5008,True,10,10,False,1.350794,1854.0,900.0,27.6811,30x30,Net 30x30
+Net,,8,A* (cells),5008,True,10,10,False,0.979983,1574.0,900.0,27.8783,30x30,Net 30x30
+Net,,8,A* (connectivity),5008,True,10,10,False,4.786917,1574.0,900.0,27.8783,30x30,Net 30x30
+Net,,8,A* (zero),5008,True,10,10,False,1.740868,2958.0,900.0,36.141,30x30,Net 30x30
+Net,,9,DFS,5009,True,10,10,False,1.029443,1925.0,900.0,27.2826,30x30,Net 30x30
+Net,,9,A* (lookahead),5009,True,10,10,False,1.06328,1558.0,900.0,27.1723,30x30,Net 30x30
+Net,,9,A* (cells),5009,True,10,10,False,1.088963,1925.0,900.0,27.4475,30x30,Net 30x30
+Net,,9,A* (connectivity),5009,True,10,10,False,4.873744,1925.0,900.0,27.4475,30x30,Net 30x30
+Net,,9,A* (zero),5009,True,10,10,False,1.555372,2837.0,900.0,29.3779,30x30,Net 30x30
