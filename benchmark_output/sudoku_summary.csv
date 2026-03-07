@@ -1,6 +1,6 @@
 Difficulty,Algorithm,Solved,Total,Avg_Time_s,Avg_Steps,Avg_Path_Length,Avg_Peak_Memory_MB
-Easy (30),A* (cells),3,3,0.0577,37,30.0,0.04
-Easy (30),A* (mrv),3,3,0.0595,31,30.0,0.04
-Easy (30),A* (srv),3,3,0.0703,44,30.0,0.04
-Easy (30),A* (zero),3,3,0.0627,44,30.0,0.04
-Easy (30),DFS,3,3,0.0125,37,30.0,0.04
+Easy (30),A* (cells),1,1,0.006,35,30.0,0.05
+Easy (30),A* (mrv),1,1,0.006,31,30.0,0.04
+Easy (30),A* (srv),1,1,0.0072,42,30.0,0.04
+Easy (30),A* (zero),1,1,0.0064,42,30.0,0.04
+Easy (30),DFS,1,1,0.0013,35,30.0,0.04

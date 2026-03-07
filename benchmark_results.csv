@@ -1,216 +1,26 @@
 Game,Difficulty,Trial,Algorithm,seed,solved,solved_count,bench_runs,timed_out,time_s,steps,path_length,peak_memory_mb,Size,GeneratorAlgorithm,Puzzle
-Sudoku,Easy (30),0,DFS,1000,True,10,10,False,0.012258,35.0,30.0,0.0367,,,Sudoku Easy (30)
-Sudoku,Easy (30),0,A* (mrv),1000,True,10,10,False,0.053394,31.0,30.0,0.0385,,,Sudoku Easy (30)
-Sudoku,Easy (30),0,A* (cells),1000,True,10,10,False,0.055599,35.0,30.0,0.041,,,Sudoku Easy (30)
-Sudoku,Easy (30),0,A* (srv),1000,True,10,10,False,0.065116,42.0,30.0,0.0395,,,Sudoku Easy (30)
-Sudoku,Easy (30),0,A* (zero),1000,True,10,10,False,0.057033,42.0,30.0,0.0395,,,Sudoku Easy (30)
-Sudoku,Easy (30),1,DFS,1001,True,10,10,False,0.012905,36.0,30.0,0.0377,,,Sudoku Easy (30)
-Sudoku,Easy (30),1,A* (mrv),1001,True,10,10,False,0.057305,31.0,30.0,0.0397,,,Sudoku Easy (30)
-Sudoku,Easy (30),1,A* (cells),1001,True,10,10,False,0.055757,36.0,30.0,0.0423,,,Sudoku Easy (30)
-Sudoku,Easy (30),1,A* (srv),1001,True,10,10,False,0.068455,46.0,30.0,0.041,,,Sudoku Easy (30)
-Sudoku,Easy (30),1,A* (zero),1001,True,10,10,False,0.059373,46.0,30.0,0.0408,,,Sudoku Easy (30)
-Sudoku,Easy (30),2,DFS,1002,True,10,10,False,0.012259,40.0,30.0,0.0368,,,Sudoku Easy (30)
-Sudoku,Easy (30),2,A* (mrv),1002,True,10,10,False,0.067916,31.0,30.0,0.0385,,,Sudoku Easy (30)
-Sudoku,Easy (30),2,A* (cells),1002,True,10,10,False,0.061838,40.0,30.0,0.0415,,,Sudoku Easy (30)
-Sudoku,Easy (30),2,A* (srv),1002,True,10,10,False,0.077277,44.0,30.0,0.0407,,,Sudoku Easy (30)
-Sudoku,Easy (30),2,A* (zero),1002,True,10,10,False,0.071842,44.0,30.0,0.0406,,,Sudoku Easy (30)
-Net,,0,DFS,2500,True,10,10,False,0.028118,26.0,25.0,0.0606,5x5,dfs,Net 5x5
-Net,,0,A* (lookahead),2500,True,10,10,False,0.048892,26.0,25.0,0.0595,5x5,dfs,Net 5x5
-Net,,0,A* (cells),2500,True,10,10,False,0.032599,26.0,25.0,0.0633,5x5,dfs,Net 5x5
-Net,,0,A* (connectivity),2500,True,10,10,False,0.039546,26.0,25.0,0.0633,5x5,dfs,Net 5x5
-Net,,0,A* (zero),2500,True,10,10,False,0.02973,34.0,25.0,0.0606,5x5,dfs,Net 5x5
-Net,,1,DFS,2501,True,10,10,False,0.019122,28.0,25.0,0.0586,5x5,dfs,Net 5x5
-Net,,1,A* (lookahead),2501,True,10,10,False,0.049565,27.0,25.0,0.0612,5x5,dfs,Net 5x5
-Net,,1,A* (cells),2501,True,10,10,False,0.027218,28.0,25.0,0.0613,5x5,dfs,Net 5x5
-Net,,1,A* (connectivity),2501,True,10,10,False,0.050653,28.0,25.0,0.0613,5x5,dfs,Net 5x5
-Net,,1,A* (zero),2501,True,10,10,False,0.04596,40.0,25.0,0.0621,5x5,dfs,Net 5x5
-Net,,2,DFS,2502,True,10,10,False,0.019025,26.0,25.0,0.063,5x5,dfs,Net 5x5
-Net,,2,A* (lookahead),2502,True,10,10,False,0.041825,26.0,25.0,0.0597,5x5,dfs,Net 5x5
-Net,,2,A* (cells),2502,True,10,10,False,0.024137,26.0,25.0,0.0658,5x5,dfs,Net 5x5
-Net,,2,A* (connectivity),2502,True,10,10,False,0.03978,26.0,25.0,0.0658,5x5,dfs,Net 5x5
-Net,,2,A* (zero),2502,True,10,10,False,0.039334,34.0,25.0,0.0611,5x5,dfs,Net 5x5
-Net,,3,DFS,2503,True,10,10,False,0.027212,29.0,25.0,0.0572,5x5,dfs,Net 5x5
-Net,,3,A* (lookahead),2503,True,10,10,False,0.046106,27.0,25.0,0.0596,5x5,dfs,Net 5x5
-Net,,3,A* (cells),2503,True,10,10,False,0.032622,29.0,25.0,0.0598,5x5,dfs,Net 5x5
-Net,,3,A* (connectivity),2503,True,10,10,False,0.041718,29.0,25.0,0.0598,5x5,dfs,Net 5x5
-Net,,3,A* (zero),2503,True,10,10,False,0.027335,29.0,25.0,0.0598,5x5,dfs,Net 5x5
-Net,,4,DFS,2504,True,10,10,False,0.0227,26.0,25.0,0.0624,5x5,dfs,Net 5x5
-Net,,4,A* (lookahead),2504,True,10,10,False,0.048103,26.0,25.0,0.0595,5x5,dfs,Net 5x5
-Net,,4,A* (cells),2504,True,10,10,False,0.035767,26.0,25.0,0.0652,5x5,dfs,Net 5x5
-Net,,4,A* (connectivity),2504,True,10,10,False,0.047315,26.0,25.0,0.0652,5x5,dfs,Net 5x5
-Net,,4,A* (zero),2504,True,10,10,False,0.026676,30.0,25.0,0.0599,5x5,dfs,Net 5x5
-Net,,5,DFS,2505,True,10,10,False,0.018066,27.0,25.0,0.0594,5x5,dfs,Net 5x5
-Net,,5,A* (lookahead),2505,True,10,10,False,0.032463,26.0,25.0,0.0595,5x5,dfs,Net 5x5
-Net,,5,A* (cells),2505,True,10,10,False,0.038101,27.0,25.0,0.062,5x5,dfs,Net 5x5
-Net,,5,A* (connectivity),2505,True,10,10,False,0.042077,27.0,25.0,0.062,5x5,dfs,Net 5x5
-Net,,5,A* (zero),2505,True,10,10,False,0.035131,29.0,25.0,0.0598,5x5,dfs,Net 5x5
-Net,,6,DFS,2506,True,10,10,False,0.020327,27.0,25.0,0.0588,5x5,dfs,Net 5x5
-Net,,6,A* (lookahead),2506,True,10,10,False,0.043839,26.0,25.0,0.0596,5x5,dfs,Net 5x5
-Net,,6,A* (cells),2506,True,10,10,False,0.034047,27.0,25.0,0.0613,5x5,dfs,Net 5x5
-Net,,6,A* (connectivity),2506,True,10,10,False,0.059198,27.0,25.0,0.0613,5x5,dfs,Net 5x5
-Net,,6,A* (zero),2506,True,10,10,False,0.034104,33.0,25.0,0.0605,5x5,dfs,Net 5x5
-Net,,7,DFS,2507,True,10,10,False,0.026195,27.0,25.0,0.0584,5x5,dfs,Net 5x5
-Net,,7,A* (lookahead),2507,True,10,10,False,0.040209,26.0,25.0,0.0609,5x5,dfs,Net 5x5
-Net,,7,A* (cells),2507,True,10,10,False,0.030267,27.0,25.0,0.061,5x5,dfs,Net 5x5
-Net,,7,A* (connectivity),2507,True,10,10,False,0.047329,27.0,25.0,0.061,5x5,dfs,Net 5x5
-Net,,7,A* (zero),2507,True,10,10,False,0.036449,29.0,25.0,0.0598,5x5,dfs,Net 5x5
-Net,,8,DFS,2508,True,10,10,False,0.025009,27.0,25.0,0.0603,5x5,dfs,Net 5x5
-Net,,8,A* (lookahead),2508,True,10,10,False,0.035218,26.0,25.0,0.0615,5x5,dfs,Net 5x5
-Net,,8,A* (cells),2508,True,10,10,False,0.028234,27.0,25.0,0.063,5x5,dfs,Net 5x5
-Net,,8,A* (connectivity),2508,True,10,10,False,0.045505,27.0,25.0,0.063,5x5,dfs,Net 5x5
-Net,,8,A* (zero),2508,True,10,10,False,0.03264,33.0,25.0,0.0604,5x5,dfs,Net 5x5
-Net,,9,DFS,2509,True,10,10,False,0.028726,35.0,25.0,0.0596,5x5,dfs,Net 5x5
-Net,,9,A* (lookahead),2509,True,10,10,False,0.048413,26.0,25.0,0.061,5x5,dfs,Net 5x5
-Net,,9,A* (cells),2509,True,10,10,False,0.037404,35.0,25.0,0.0626,5x5,dfs,Net 5x5
-Net,,9,A* (connectivity),2509,True,10,10,False,0.047318,35.0,25.0,0.0626,5x5,dfs,Net 5x5
-Net,,9,A* (zero),2509,True,10,10,False,0.035906,36.0,25.0,0.061,5x5,dfs,Net 5x5
-Net,,0,DFS,2500,True,10,10,False,0.017057,25.0,24.0,0.0558,5x5,prim,Net 5x5
-Net,,0,A* (lookahead),2500,True,10,10,False,0.040439,25.0,24.0,0.0581,5x5,prim,Net 5x5
-Net,,0,A* (cells),2500,True,10,10,False,0.03361,25.0,24.0,0.0581,5x5,prim,Net 5x5
-Net,,0,A* (connectivity),2500,True,10,10,False,0.037063,25.0,24.0,0.0581,5x5,prim,Net 5x5
-Net,,0,A* (zero),2500,True,10,10,False,0.0282,25.0,24.0,0.0581,5x5,prim,Net 5x5
-Net,,1,DFS,2501,True,10,10,False,0.028269,29.0,25.0,0.0616,5x5,prim,Net 5x5
-Net,,1,A* (lookahead),2501,True,10,10,False,0.03554,27.0,25.0,0.0659,5x5,prim,Net 5x5
-Net,,1,A* (cells),2501,True,10,10,False,0.030609,29.0,25.0,0.0644,5x5,prim,Net 5x5
-Net,,1,A* (connectivity),2501,True,10,10,False,0.053592,29.0,25.0,0.0644,5x5,prim,Net 5x5
-Net,,1,A* (zero),2501,True,10,10,False,0.037052,46.0,25.0,0.0776,5x5,prim,Net 5x5
-Net,,2,DFS,2502,True,10,10,False,0.03454,28.0,24.0,0.0578,5x5,prim,Net 5x5
-Net,,2,A* (lookahead),2502,True,10,10,False,0.034724,25.0,24.0,0.0602,5x5,prim,Net 5x5
-Net,,2,A* (cells),2502,True,10,10,False,0.028056,28.0,24.0,0.0605,5x5,prim,Net 5x5
-Net,,2,A* (connectivity),2502,True,10,10,False,0.049927,28.0,24.0,0.0605,5x5,prim,Net 5x5
-Net,,2,A* (zero),2502,True,10,10,False,0.038108,29.0,24.0,0.0586,5x5,prim,Net 5x5
-Net,,3,DFS,2503,True,10,10,False,0.029621,36.0,25.0,0.061,5x5,prim,Net 5x5
-Net,,3,A* (lookahead),2503,True,10,10,False,0.05818,32.0,25.0,0.0625,5x5,prim,Net 5x5
-Net,,3,A* (cells),2503,True,10,10,False,0.037606,36.0,25.0,0.0642,5x5,prim,Net 5x5
-Net,,3,A* (connectivity),2503,True,10,10,False,0.047488,36.0,25.0,0.0642,5x5,prim,Net 5x5
-Net,,3,A* (zero),2503,True,10,10,False,0.044269,46.0,25.0,0.0639,5x5,prim,Net 5x5
-Net,,4,DFS,2504,True,10,10,False,0.020986,27.0,25.0,0.0572,5x5,prim,Net 5x5
-Net,,4,A* (lookahead),2504,True,10,10,False,0.035173,26.0,25.0,0.0596,5x5,prim,Net 5x5
-Net,,4,A* (cells),2504,True,10,10,False,0.030184,27.0,25.0,0.0597,5x5,prim,Net 5x5
-Net,,4,A* (connectivity),2504,True,10,10,False,0.0583,27.0,25.0,0.0597,5x5,prim,Net 5x5
-Net,,4,A* (zero),2504,True,10,10,False,0.028666,27.0,25.0,0.0597,5x5,prim,Net 5x5
-Net,,5,DFS,2505,True,10,10,False,0.052184,58.0,23.0,0.0628,5x5,prim,Net 5x5
-Net,,5,A* (lookahead),2505,True,10,10,False,0.064432,37.0,23.0,0.0596,5x5,prim,Net 5x5
-Net,,5,A* (cells),2505,True,10,10,False,0.057271,58.0,23.0,0.0683,5x5,prim,Net 5x5
-Net,,5,A* (connectivity),2505,True,10,10,False,0.110852,58.0,23.0,0.0683,5x5,prim,Net 5x5
-Net,,5,A* (zero),2505,True,10,10,False,0.069895,62.0,23.0,0.0921,5x5,prim,Net 5x5
-Net,,6,DFS,2506,True,10,10,False,0.022538,28.0,25.0,0.0684,5x5,prim,Net 5x5
-Net,,6,A* (lookahead),2506,True,10,10,False,0.038932,26.0,25.0,0.0654,5x5,prim,Net 5x5
-Net,,6,A* (cells),2506,True,10,10,False,0.035524,28.0,25.0,0.0718,5x5,prim,Net 5x5
-Net,,6,A* (connectivity),2506,True,10,10,False,0.059054,28.0,25.0,0.0718,5x5,prim,Net 5x5
-Net,,6,A* (zero),2506,True,10,10,False,0.075027,75.0,25.0,0.1248,5x5,prim,Net 5x5
-Net,,7,DFS,2507,True,10,10,False,0.052489,50.0,24.0,0.0616,5x5,prim,Net 5x5
-Net,,7,A* (lookahead),2507,True,10,10,False,0.045923,34.0,24.0,0.0634,5x5,prim,Net 5x5
-Net,,7,A* (cells),2507,True,10,10,False,0.056268,50.0,24.0,0.0667,5x5,prim,Net 5x5
-Net,,7,A* (connectivity),2507,True,10,10,False,0.082566,50.0,24.0,0.0667,5x5,prim,Net 5x5
-Net,,7,A* (zero),2507,True,10,10,False,0.058107,66.0,24.0,0.0957,5x5,prim,Net 5x5
-Net,,8,DFS,2508,True,10,10,False,0.029464,26.0,24.0,0.0559,5x5,prim,Net 5x5
-Net,,8,A* (lookahead),2508,True,10,10,False,0.049943,25.0,24.0,0.0582,5x5,prim,Net 5x5
-Net,,8,A* (cells),2508,True,10,10,False,0.025819,26.0,24.0,0.0583,5x5,prim,Net 5x5
-Net,,8,A* (connectivity),2508,True,10,10,False,0.040645,26.0,24.0,0.0583,5x5,prim,Net 5x5
-Net,,8,A* (zero),2508,True,10,10,False,0.030734,26.0,24.0,0.0582,5x5,prim,Net 5x5
-Net,,9,DFS,2509,True,10,10,False,0.025551,28.0,25.0,0.0574,5x5,prim,Net 5x5
-Net,,9,A* (lookahead),2509,True,10,10,False,0.035073,26.0,25.0,0.0597,5x5,prim,Net 5x5
-Net,,9,A* (cells),2509,True,10,10,False,0.037236,28.0,25.0,0.0599,5x5,prim,Net 5x5
-Net,,9,A* (connectivity),2509,True,10,10,False,0.05043,28.0,25.0,0.0599,5x5,prim,Net 5x5
-Net,,9,A* (zero),2509,True,10,10,False,0.032681,28.0,25.0,0.0598,5x5,prim,Net 5x5
-Net,,0,DFS,2500,True,10,10,False,0.024295,32.0,24.0,0.0654,5x5,kruskal,Net 5x5
-Net,,0,A* (lookahead),2500,True,10,10,False,0.041286,25.0,24.0,0.064,5x5,kruskal,Net 5x5
-Net,,0,A* (cells),2500,True,10,10,False,0.046492,32.0,24.0,0.0688,5x5,kruskal,Net 5x5
-Net,,0,A* (connectivity),2500,True,10,10,False,0.054557,32.0,24.0,0.0688,5x5,kruskal,Net 5x5
-Net,,0,A* (zero),2500,True,10,10,False,0.053427,48.0,24.0,0.0628,5x5,kruskal,Net 5x5
-Net,,1,DFS,2501,True,10,10,False,0.025247,30.0,24.0,0.06,5x5,kruskal,Net 5x5
-Net,,1,A* (lookahead),2501,True,10,10,False,0.052467,25.0,24.0,0.0628,5x5,kruskal,Net 5x5
-Net,,1,A* (cells),2501,True,10,10,False,0.03325,30.0,24.0,0.063,5x5,kruskal,Net 5x5
-Net,,1,A* (connectivity),2501,True,10,10,False,0.061611,30.0,24.0,0.063,5x5,kruskal,Net 5x5
-Net,,1,A* (zero),2501,True,10,10,False,0.033465,40.0,24.0,0.0755,5x5,kruskal,Net 5x5
-Net,,2,DFS,2502,True,10,10,False,0.027563,31.0,24.0,0.058,5x5,kruskal,Net 5x5
-Net,,2,A* (lookahead),2502,True,10,10,False,0.043932,25.0,24.0,0.0584,5x5,kruskal,Net 5x5
-Net,,2,A* (cells),2502,True,10,10,False,0.035356,31.0,24.0,0.0608,5x5,kruskal,Net 5x5
-Net,,2,A* (connectivity),2502,True,10,10,False,0.052724,31.0,24.0,0.0608,5x5,kruskal,Net 5x5
-Net,,2,A* (zero),2502,True,10,10,False,0.02994,32.0,24.0,0.0592,5x5,kruskal,Net 5x5
-Net,,3,DFS,2503,True,10,10,False,0.022435,26.0,25.0,0.0636,5x5,kruskal,Net 5x5
-Net,,3,A* (lookahead),2503,True,10,10,False,0.040234,26.0,25.0,0.0625,5x5,kruskal,Net 5x5
-Net,,3,A* (cells),2503,True,10,10,False,0.043634,26.0,25.0,0.0666,5x5,kruskal,Net 5x5
-Net,,3,A* (connectivity),2503,True,10,10,False,0.058359,26.0,25.0,0.0666,5x5,kruskal,Net 5x5
-Net,,3,A* (zero),2503,True,10,10,False,0.036937,37.0,25.0,0.0611,5x5,kruskal,Net 5x5
-Net,,4,DFS,2504,True,10,10,False,0.022356,27.0,25.0,0.0624,5x5,kruskal,Net 5x5
-Net,,4,A* (lookahead),2504,True,10,10,False,0.051571,26.0,25.0,0.0614,5x5,kruskal,Net 5x5
-Net,,4,A* (cells),2504,True,10,10,False,0.037592,27.0,25.0,0.0653,5x5,kruskal,Net 5x5
-Net,,4,A* (connectivity),2504,True,10,10,False,0.046467,27.0,25.0,0.0653,5x5,kruskal,Net 5x5
-Net,,4,A* (zero),2504,True,10,10,False,0.033717,32.0,25.0,0.0604,5x5,kruskal,Net 5x5
-Net,,5,DFS,2505,True,10,10,False,0.025172,31.0,23.0,0.0569,5x5,kruskal,Net 5x5
-Net,,5,A* (lookahead),2505,True,10,10,False,0.03227,24.0,23.0,0.0583,5x5,kruskal,Net 5x5
-Net,,5,A* (cells),2505,True,10,10,False,0.042579,31.0,23.0,0.0598,5x5,kruskal,Net 5x5
-Net,,5,A* (connectivity),2505,True,10,10,False,0.052649,31.0,23.0,0.0598,5x5,kruskal,Net 5x5
-Net,,5,A* (zero),2505,True,10,10,False,0.027806,32.0,23.0,0.0579,5x5,kruskal,Net 5x5
-Net,,6,DFS,2506,True,10,10,False,0.020117,26.0,24.0,0.0584,5x5,kruskal,Net 5x5
-Net,,6,A* (lookahead),2506,True,10,10,False,0.035774,25.0,24.0,0.0582,5x5,kruskal,Net 5x5
-Net,,6,A* (cells),2506,True,10,10,False,0.029913,26.0,24.0,0.0611,5x5,kruskal,Net 5x5
-Net,,6,A* (connectivity),2506,True,10,10,False,0.051455,26.0,24.0,0.0611,5x5,kruskal,Net 5x5
-Net,,6,A* (zero),2506,True,10,10,False,0.041045,33.0,24.0,0.0593,5x5,kruskal,Net 5x5
-Net,,7,DFS,2507,True,10,10,False,0.03695,38.0,25.0,0.0603,5x5,kruskal,Net 5x5
-Net,,7,A* (lookahead),2507,True,10,10,False,0.043164,26.0,25.0,0.0655,5x5,kruskal,Net 5x5
-Net,,7,A* (cells),2507,True,10,10,False,0.042456,38.0,25.0,0.0635,5x5,kruskal,Net 5x5
-Net,,7,A* (connectivity),2507,True,10,10,False,0.068083,38.0,25.0,0.0635,5x5,kruskal,Net 5x5
-Net,,7,A* (zero),2507,True,10,10,False,0.038343,40.0,25.0,0.0618,5x5,kruskal,Net 5x5
-Net,,8,DFS,2508,True,10,10,False,0.031296,36.0,25.0,0.0666,5x5,kruskal,Net 5x5
-Net,,8,A* (lookahead),2508,True,10,10,False,0.045191,26.0,25.0,0.0672,5x5,kruskal,Net 5x5
-Net,,8,A* (cells),2508,True,10,10,False,0.04898,36.0,25.0,0.0703,5x5,kruskal,Net 5x5
-Net,,8,A* (connectivity),2508,True,10,10,False,0.052703,36.0,25.0,0.0703,5x5,kruskal,Net 5x5
-Net,,8,A* (zero),2508,True,10,10,False,0.078939,81.0,25.0,0.1119,5x5,kruskal,Net 5x5
-Net,,9,DFS,2509,True,10,10,False,0.028367,34.0,24.0,0.058,5x5,kruskal,Net 5x5
-Net,,9,A* (lookahead),2509,True,10,10,False,0.048141,25.0,24.0,0.0602,5x5,kruskal,Net 5x5
-Net,,9,A* (cells),2509,True,10,10,False,0.033244,34.0,24.0,0.061,5x5,kruskal,Net 5x5
-Net,,9,A* (connectivity),2509,True,10,10,False,0.057713,34.0,24.0,0.061,5x5,kruskal,Net 5x5
-Net,,9,A* (zero),2509,True,10,10,False,0.031726,36.0,24.0,0.0602,5x5,kruskal,Net 5x5
-Net,,0,DFS,2500,True,10,10,False,0.020475,30.0,25.0,0.0626,5x5,eller,Net 5x5
-Net,,0,A* (lookahead),2500,True,10,10,False,0.0418,27.0,25.0,0.0632,5x5,eller,Net 5x5
-Net,,0,A* (cells),2500,True,10,10,False,0.029313,30.0,25.0,0.0657,5x5,eller,Net 5x5
-Net,,0,A* (connectivity),2500,True,10,10,False,0.045586,30.0,25.0,0.0657,5x5,eller,Net 5x5
-Net,,0,A* (zero),2500,True,10,10,False,0.051997,58.0,25.0,0.1035,5x5,eller,Net 5x5
-Net,,1,DFS,2501,True,10,10,False,0.025494,29.0,24.0,0.0622,5x5,eller,Net 5x5
-Net,,1,A* (lookahead),2501,True,10,10,False,0.070065,33.0,24.0,0.065,5x5,eller,Net 5x5
-Net,,1,A* (cells),2501,True,10,10,False,0.034226,29.0,24.0,0.0651,5x5,eller,Net 5x5
-Net,,1,A* (connectivity),2501,True,10,10,False,0.059162,29.0,24.0,0.0651,5x5,eller,Net 5x5
-Net,,1,A* (zero),2501,True,10,10,False,0.044787,42.0,24.0,0.0799,5x5,eller,Net 5x5
-Net,,2,DFS,2502,True,10,10,False,0.029014,37.0,25.0,0.0614,5x5,eller,Net 5x5
-Net,,2,A* (lookahead),2502,True,10,10,False,0.043411,31.0,25.0,0.0636,5x5,eller,Net 5x5
-Net,,2,A* (cells),2502,True,10,10,False,0.042516,37.0,25.0,0.0646,5x5,eller,Net 5x5
-Net,,2,A* (connectivity),2502,True,10,10,False,0.058649,37.0,25.0,0.0646,5x5,eller,Net 5x5
-Net,,2,A* (zero),2502,True,10,10,False,0.040094,45.0,25.0,0.0635,5x5,eller,Net 5x5
-Net,,3,DFS,2503,True,10,10,False,0.02449,26.0,25.0,0.0626,5x5,eller,Net 5x5
-Net,,3,A* (lookahead),2503,True,10,10,False,0.040727,26.0,25.0,0.0616,5x5,eller,Net 5x5
-Net,,3,A* (cells),2503,True,10,10,False,0.027978,26.0,25.0,0.0654,5x5,eller,Net 5x5
-Net,,3,A* (connectivity),2503,True,10,10,False,0.043711,26.0,25.0,0.0654,5x5,eller,Net 5x5
-Net,,3,A* (zero),2503,True,10,10,False,0.03959,42.0,25.0,0.07,5x5,eller,Net 5x5
-Net,,4,DFS,2504,True,10,10,False,0.021749,27.0,23.0,0.0581,5x5,eller,Net 5x5
-Net,,4,A* (lookahead),2504,True,10,10,False,0.040591,24.0,23.0,0.0587,5x5,eller,Net 5x5
-Net,,4,A* (cells),2504,True,10,10,False,0.035893,27.0,23.0,0.0609,5x5,eller,Net 5x5
-Net,,4,A* (connectivity),2504,True,10,10,False,0.05299,27.0,23.0,0.0609,5x5,eller,Net 5x5
-Net,,4,A* (zero),2504,True,10,10,False,0.029423,32.0,23.0,0.058,5x5,eller,Net 5x5
-Net,,5,DFS,2505,True,10,10,False,0.026561,27.0,24.0,0.0591,5x5,eller,Net 5x5
-Net,,5,A* (lookahead),2505,True,10,10,False,0.039182,25.0,24.0,0.0617,5x5,eller,Net 5x5
-Net,,5,A* (cells),2505,True,10,10,False,0.027136,27.0,24.0,0.0619,5x5,eller,Net 5x5
-Net,,5,A* (connectivity),2505,True,10,10,False,0.051574,27.0,24.0,0.0619,5x5,eller,Net 5x5
-Net,,5,A* (zero),2505,True,10,10,False,0.039437,40.0,24.0,0.0764,5x5,eller,Net 5x5
-Net,,6,DFS,2506,True,10,10,False,0.028589,28.0,25.0,0.062,5x5,eller,Net 5x5
-Net,,6,A* (lookahead),2506,True,10,10,False,0.107639,69.0,25.0,0.0713,5x5,eller,Net 5x5
-Net,,6,A* (cells),2506,True,10,10,False,0.034133,28.0,25.0,0.0649,5x5,eller,Net 5x5
-Net,,6,A* (connectivity),2506,True,10,10,False,0.040709,28.0,25.0,0.0649,5x5,eller,Net 5x5
-Net,,6,A* (zero),2506,True,10,10,False,0.077724,94.0,25.0,0.1574,5x5,eller,Net 5x5
-Net,,7,DFS,2507,True,10,10,False,0.021113,24.0,23.0,0.0574,5x5,eller,Net 5x5
-Net,,7,A* (lookahead),2507,True,10,10,False,0.033971,24.0,23.0,0.0586,5x5,eller,Net 5x5
-Net,,7,A* (cells),2507,True,10,10,False,0.033048,24.0,23.0,0.06,5x5,eller,Net 5x5
-Net,,7,A* (connectivity),2507,True,10,10,False,0.04616,24.0,23.0,0.06,5x5,eller,Net 5x5
-Net,,7,A* (zero),2507,True,10,10,False,0.029518,28.0,23.0,0.0571,5x5,eller,Net 5x5
-Net,,8,DFS,2508,True,10,10,False,0.023116,29.0,25.0,0.0589,5x5,eller,Net 5x5
-Net,,8,A* (lookahead),2508,True,10,10,False,0.041884,28.0,25.0,0.0599,5x5,eller,Net 5x5
-Net,,8,A* (cells),2508,True,10,10,False,0.027464,29.0,25.0,0.0616,5x5,eller,Net 5x5
-Net,,8,A* (connectivity),2508,True,10,10,False,0.038912,29.0,25.0,0.0616,5x5,eller,Net 5x5
-Net,,8,A* (zero),2508,True,10,10,False,0.024205,30.0,25.0,0.06,5x5,eller,Net 5x5
-Net,,9,DFS,2509,True,10,10,False,0.017287,26.0,25.0,0.0601,5x5,eller,Net 5x5
-Net,,9,A* (lookahead),2509,True,10,10,False,0.025521,26.0,25.0,0.0609,5x5,eller,Net 5x5
-Net,,9,A* (cells),2509,True,10,10,False,0.018326,26.0,25.0,0.0628,5x5,eller,Net 5x5
-Net,,9,A* (connectivity),2509,True,10,10,False,0.029868,26.0,25.0,0.0628,5x5,eller,Net 5x5
-Net,,9,A* (zero),2509,True,10,10,False,0.018496,32.0,25.0,0.0603,5x5,eller,Net 5x5
+Sudoku,Easy (30),0,DFS,1000,True,1,1,False,0.001326,35.0,30.0,0.0419,,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (mrv),1000,True,1,1,False,0.00605,31.0,30.0,0.0435,,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (cells),1000,True,1,1,False,0.005966,35.0,30.0,0.0464,,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (srv),1000,True,1,1,False,0.007234,42.0,30.0,0.0439,,,Sudoku Easy (30)
+Sudoku,Easy (30),0,A* (zero),1000,True,1,1,False,0.006356,42.0,30.0,0.044,,,Sudoku Easy (30)
+Net,,0,DFS,2500,True,1,1,False,0.003494,26.0,25.0,0.0643,5x5,dfs,Net 5x5
+Net,,0,A* (lookahead),2500,True,1,1,False,0.005178,26.0,25.0,0.0628,5x5,dfs,Net 5x5
+Net,,0,A* (cells),2500,True,1,1,False,0.009212,26.0,25.0,0.0672,5x5,dfs,Net 5x5
+Net,,0,A* (connectivity),2500,True,1,1,False,0.00967,26.0,25.0,0.0672,5x5,dfs,Net 5x5
+Net,,0,A* (zero),2500,True,1,1,False,0.00526,34.0,25.0,0.0628,5x5,dfs,Net 5x5
+Net,,0,DFS,2500,True,1,1,False,0.003541,25.0,24.0,0.0595,5x5,prim,Net 5x5
+Net,,0,A* (lookahead),2500,True,1,1,False,0.005176,25.0,24.0,0.0619,5x5,prim,Net 5x5
+Net,,0,A* (cells),2500,True,1,1,False,0.004602,25.0,24.0,0.0618,5x5,prim,Net 5x5
+Net,,0,A* (connectivity),2500,True,1,1,False,0.006464,25.0,24.0,0.0618,5x5,prim,Net 5x5
+Net,,0,A* (zero),2500,True,1,1,False,0.004125,25.0,24.0,0.0618,5x5,prim,Net 5x5
+Net,,0,DFS,2500,True,1,1,False,0.004201,32.0,24.0,0.0679,5x5,kruskal,Net 5x5
+Net,,0,A* (lookahead),2500,True,1,1,False,0.008322,25.0,24.0,0.0677,5x5,kruskal,Net 5x5
+Net,,0,A* (cells),2500,True,1,1,False,0.011974,32.0,24.0,0.0717,5x5,kruskal,Net 5x5
+Net,,0,A* (connectivity),2500,True,1,1,False,0.007437,32.0,24.0,0.0717,5x5,kruskal,Net 5x5
+Net,,0,A* (zero),2500,True,1,1,False,0.006181,48.0,24.0,0.0643,5x5,kruskal,Net 5x5
+Net,,0,DFS,2500,True,1,1,False,0.003719,30.0,25.0,0.0655,5x5,eller,Net 5x5
+Net,,0,A* (lookahead),2500,True,1,1,False,0.008041,27.0,25.0,0.0666,5x5,eller,Net 5x5
+Net,,0,A* (cells),2500,True,1,1,False,0.008469,30.0,25.0,0.0689,5x5,eller,Net 5x5
+Net,,0,A* (connectivity),2500,True,1,1,False,0.010035,30.0,25.0,0.0689,5x5,eller,Net 5x5
+Net,,0,A* (zero),2500,True,1,1,False,0.010076,58.0,25.0,0.1055,5x5,eller,Net 5x5

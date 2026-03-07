@@ -1,21 +1,21 @@
 GeneratorAlgorithm,Size,Algorithm,Solved,Total,Avg_Time_s,Avg_Steps,Avg_Path_Length,Avg_Peak_Memory_MB
-dfs,5x5,A* (cells),10,10,0.032,28,25.0,0.06
-dfs,5x5,A* (connectivity),10,10,0.046,28,25.0,0.06
-dfs,5x5,A* (lookahead),10,10,0.0435,26,25.0,0.06
-dfs,5x5,A* (zero),10,10,0.0343,33,25.0,0.06
-dfs,5x5,DFS,10,10,0.0235,28,25.0,0.06
-eller,5x5,A* (cells),10,10,0.031,28,24.4,0.06
-eller,5x5,A* (connectivity),10,10,0.0467,28,24.4,0.06
-eller,5x5,A* (lookahead),10,10,0.0485,31,24.4,0.06
-eller,5x5,A* (zero),10,10,0.0395,44,24.4,0.08
-eller,5x5,DFS,10,10,0.0238,28,24.4,0.06
-kruskal,5x5,A* (cells),10,10,0.0393,31,24.3,0.06
-kruskal,5x5,A* (connectivity),10,10,0.0556,31,24.3,0.06
-kruskal,5x5,A* (lookahead),10,10,0.0434,25,24.3,0.06
-kruskal,5x5,A* (zero),10,10,0.0405,41,24.3,0.07
-kruskal,5x5,DFS,10,10,0.0264,31,24.3,0.06
-prim,5x5,A* (cells),10,10,0.0372,34,24.4,0.06
-prim,5x5,A* (connectivity),10,10,0.059,34,24.4,0.06
-prim,5x5,A* (lookahead),10,10,0.0438,28,24.4,0.06
-prim,5x5,A* (zero),10,10,0.0443,43,24.4,0.07
-prim,5x5,DFS,10,10,0.0313,34,24.4,0.06
+dfs,5x5,A* (cells),1,1,0.0092,26,25.0,0.07
+dfs,5x5,A* (connectivity),1,1,0.0097,26,25.0,0.07
+dfs,5x5,A* (lookahead),1,1,0.0052,26,25.0,0.06
+dfs,5x5,A* (zero),1,1,0.0053,34,25.0,0.06
+dfs,5x5,DFS,1,1,0.0035,26,25.0,0.06
+eller,5x5,A* (cells),1,1,0.0085,30,25.0,0.07
+eller,5x5,A* (connectivity),1,1,0.01,30,25.0,0.07
+eller,5x5,A* (lookahead),1,1,0.008,27,25.0,0.07
+eller,5x5,A* (zero),1,1,0.0101,58,25.0,0.11
+eller,5x5,DFS,1,1,0.0037,30,25.0,0.07
+kruskal,5x5,A* (cells),1,1,0.012,32,24.0,0.07
+kruskal,5x5,A* (connectivity),1,1,0.0074,32,24.0,0.07
+kruskal,5x5,A* (lookahead),1,1,0.0083,25,24.0,0.07
+kruskal,5x5,A* (zero),1,1,0.0062,48,24.0,0.06
+kruskal,5x5,DFS,1,1,0.0042,32,24.0,0.07
+prim,5x5,A* (cells),1,1,0.0046,25,24.0,0.06
+prim,5x5,A* (connectivity),1,1,0.0065,25,24.0,0.06
+prim,5x5,A* (lookahead),1,1,0.0052,25,24.0,0.06
+prim,5x5,A* (zero),1,1,0.0041,25,24.0,0.06
+prim,5x5,DFS,1,1,0.0035,25,24.0,0.06
